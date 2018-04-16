@@ -1,2 +1,2 @@
 # nomensland
-Package contenant des nomenclatures et classification pour le pmsi
+Package contenant des nomenclatures et classifications pour le PMSI
