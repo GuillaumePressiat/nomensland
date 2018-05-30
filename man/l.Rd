@@ -3,11 +3,8 @@
 \docType{data}
 \name{l}
 \alias{l}
-\title{Liste de requêtes PMSI}
+\title{Liste de requetes PMSI}
 \description{
-Liste de requêtes PMSI
-}
-\author{
-G. Pressiat
+Liste de requetes PMSI
 }
 \keyword{data}

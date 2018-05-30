@@ -1,16 +1,13 @@
-
-#' Liste de tibble référentiels
+#' Liste de tibble referentiels
 #'
 #' @name r
 #' @docType data
-#' @author G. Pressiat
 #' @keywords data
 NULL
 
-#' Liste de requêtes PMSI
+#' Liste de requetes PMSI
 #'
 #' @name l
 #' @docType data
-#' @author G. Pressiat
 #' @keywords data
 NULL

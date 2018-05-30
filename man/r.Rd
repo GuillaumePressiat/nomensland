@@ -3,11 +3,8 @@
 \docType{data}
 \name{r}
 \alias{r}
-\title{Liste de tibble référentiels}
+\title{Liste de tibble referentiels}
 \description{
-Liste de tibble référentiels
-}
-\author{
-G. Pressiat
+Liste de tibble referentiels
 }
 \keyword{data}
