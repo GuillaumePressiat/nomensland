@@ -101,6 +101,6 @@ get_dictionnaire_tables <- function(def_url = path.package("nomensland")){
   def_url %>%
     paste0('/tables/dictionnaire_tables.json.gz') %>%
     jsonlite::read_json(simplifyVector = TRUE) %>% 
-    dplyr::distinct(nom_table, commentaire_tables, source_table, version) %>% 
+    dplyr::distinct(nom_table, commentaire_table, source_table, version) %>% 
     dplyr::as_tibble()
 }
