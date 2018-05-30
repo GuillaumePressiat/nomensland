@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie du nez"],
+  "abrege": ["GM30"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["GAMA007", "LAEA007", "LAEP002"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

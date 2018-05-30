@@ -1,0 +1,11 @@
+{
+  "nom": ["ŒIL : Œil"],
+  "abrege": ["CANCERO_EXH_APP_ORG_30"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C690", "C691", "C692", "C693", "C694", "C695", "C696", "C698", "C699", "D092"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l'obésité : sleeve"],
+  "abrege": ["chir_bariatrique_sleeve"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFFA011", "HFFC018"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493730199]
+}

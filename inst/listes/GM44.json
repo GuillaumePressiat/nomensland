@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie des sinus"],
+  "abrege": ["GM44"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["GBPE001", "GBPE003", "GBPA004", "GBGD001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

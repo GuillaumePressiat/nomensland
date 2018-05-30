@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL RESPIRATOIRE ET AUTRES THORAX : Autre (appareil respiratoire)"],
+  "abrege": ["CANCERO_EXH_APP_ORG_09"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C37", "C380", "C388", "C390", "C398", "C399", "C452", "C4672", "D023", "D024", "D384", "D385", "D386"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

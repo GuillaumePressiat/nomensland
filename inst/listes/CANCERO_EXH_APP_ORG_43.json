@@ -1,0 +1,11 @@
+{
+  "nom": ["PEAU : Mélanome"],
+  "abrege": ["CANCERO_EXH_APP_ORG_43"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C430", "C431", "C432", "C433", "C434", "C435", "C436", "C437", "C438", "C439", "D030", "D031", "D032", "D033", "D034", "D035", "D036", "D037", "D038", "D039"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie des maxillaires"],
+  "abrege": ["GM21"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["LAGA003", "LAGA005", "LBFA023", "LBFA030", "LBFA031"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

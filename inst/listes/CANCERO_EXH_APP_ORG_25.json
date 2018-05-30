@@ -1,0 +1,11 @@
+{
+  "nom": ["HEMATOLOGIE : Lymphome Hodgkinien"],
+  "abrege": ["CANCERO_EXH_APP_ORG_25"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C810", "C811", "C812", "C813", "C814", "C817", "C819"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

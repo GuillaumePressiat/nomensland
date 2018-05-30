@@ -1,0 +1,11 @@
+{
+  "nom": ["GLANDES ENDOCRINES : Autre (glandes endocrines)"],
+  "abrege": ["CANCERO_EXH_APP_ORG_13"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C750", "C751", "C752", "C753", "C754", "C755", "C758", "C759", "D093", "D442", "D443", "D444", "D4440", "D4448", "D445", "D446", "D447", "D448", "D449"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

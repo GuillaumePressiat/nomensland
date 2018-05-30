@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie du canal carpien et autres libérations nerveuses (MS)"],
+  "abrege": ["GM04"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["AHPA009", "AHPA021", "AHPA022", "AHPA023", "AHPA028", "AHPC001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

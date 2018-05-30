@@ -1,0 +1,10 @@
+{
+  "nom": ["Chirurgie du glaucome"],
+  "abrege": ["GM45"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["BGFA014"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["Pas d'association avec le GM10 cristallin"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

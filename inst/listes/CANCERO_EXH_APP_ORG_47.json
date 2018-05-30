@@ -1,0 +1,11 @@
+{
+  "nom": ["T.M. SECONDAIRES, SIEGES MAL DEFINIS ET AUTRES LOCALISATIONS : T.M. …"],
+  "abrege": ["CANCERO_EXH_APP_ORG_47"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C457", "C459", "C467", "C4678", "C468", "C469", "C760", "C761", "C762", "C763", "C764", "C765", "C767", "C768", "C770", "C771", "C772", "C773", "C774", "C775", "C778", "C779", "C780", "C781", "C782", "C783", "C784", "C785", "C786", "C787", "C788", "C790", "C791", "C792", "C793", "C794", "C795", "C796", "C797", "C798", "C799", "C80", "C80+0", "C800", "C809", "C97", "D097", "D099", "D487", "D489", "Z510", "Z5100", "Z5101", "Z511"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["Cette liste inclut les codes Z510, Z5100, Z5101, Z511 prise en compte du cas des DR non renseignés), la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

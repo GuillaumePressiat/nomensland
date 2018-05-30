@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie anale"],
+  "abrege": ["GM03"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["EGFA005", "EGJA001", "HJAD001", "HKFA001", "HKFA008", "HKFA009", "HKPA003", "HKPA006", "HKFA002", "HKFA004", "QBFA004"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

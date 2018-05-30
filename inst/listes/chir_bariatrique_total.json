@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgies de l'obésité"],
+  "abrege": ["chir_bariatrique_total"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFMA009", "HFMC007", "HFKA001", "HFKC001", "HFKA002", "HFMA011", "HFMC008", "HFLE002", "HFCA001", "HFCC003", "HFFC004", "HFFA001", "HGCA009", "HGCC027", "HFMA010", "HFMC006", "HFFA011", "HFFC018", "HFGC900", "HFLC900"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493730662]
+}

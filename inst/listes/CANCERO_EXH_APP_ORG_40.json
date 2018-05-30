@@ -1,0 +1,11 @@
+{
+  "nom": ["OS / TISSUS MOUS : Os, articulations, cartilage articulaire"],
+  "abrege": ["CANCERO_EXH_APP_ORG_40"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C400", "C401", "C402", "C403", "C408", "C409", "C410", "C411", "C412", "C413", "C414", "C418", "C419", "D480"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

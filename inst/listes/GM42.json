@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l’utérus"],
+  "abrege": ["GM42"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["JKFE001", "JKFE002", "JKGD002", "JKGD003", "JKND001", "JKNE001", "JKPE001", "JKQE001", "JNBD001", "JNJD002", "JNMD001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

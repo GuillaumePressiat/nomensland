@@ -1,0 +1,11 @@
+{
+  "nom": ["VADS : Lèvre"],
+  "abrege": ["CANCERO_EXH_APP_ORG_54"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C000", "C001", "C002", "C003", "C004", "C005", "C006", "C008", "C009"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

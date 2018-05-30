@@ -1,0 +1,11 @@
+{
+  "nom": ["SYSTÈME NERVEUX : Système nerveux central"],
+  "abrege": ["CANCERO_EXH_APP_ORG_46"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C700", "C701", "C709", "C710", "C711", "C712", "C713", "C714", "C715", "C716", "C717", "C718", "C719", "C720", "C721", "C722", "C723", "C724", "C725", "C728", "C729", "D420", "D421", "D429", "D430", "D431", "D432", "D433", "D434", "D437", "D439"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

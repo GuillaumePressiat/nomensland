@@ -1,0 +1,11 @@
+{
+  "nom": ["Reconstruction uro-génétale"],
+  "abrege": ["reconstruction_uro_genetale"],
+  "thematique": ["Recours Exceptionnel"],
+  "diags": ["Q640", "Q641"],
+  "positions_diags": ["toutes"],
+  "actes": ["JELE001", "JDSA001", "JDCA001", "JDSA009", "JDSA003", "JDMA001", "JEMA002", "JHAA001"],
+  "date_saisie": ["2017-05-03T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493908498]
+}

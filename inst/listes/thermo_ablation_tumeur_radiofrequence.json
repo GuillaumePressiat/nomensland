@@ -1,0 +1,9 @@
+{
+  "nom": ["Thermo ablation de tumeur hépatique par radiofréquence peropératoire"],
+  "abrege": ["thermo_ablation_tumeur_radiofrequence"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["HLNA007", "HLAC003"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493288423]
+}

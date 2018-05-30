@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Foie et voies biliaires"],
+  "abrege": ["CANCERO_EXH_APP_ORG_04"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C220", "C221", "C222", "C223", "C224", "C227", "C229", "C23", "C240", "C241", "C248", "C249", "D015", "D376"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

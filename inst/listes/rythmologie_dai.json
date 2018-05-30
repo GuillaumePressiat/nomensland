@@ -1,0 +1,9 @@
+{
+  "nom": ["Rythmologie : DAI"],
+  "abrege": ["rythmologie_dai"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DELF013", "DELF014", "DELF016", "DELF020", "DELF900", "DEKA002"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736349]
+}

@@ -1,0 +1,11 @@
+{
+  "nom": ["HEMATOLOGIE : Lymphome non Hodgkinien"],
+  "abrege": ["CANCERO_EXH_APP_ORG_26"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C820", "C821", "C822", "C823", "C824", "C825", "C826", "C827", "C829", "C830", "C831", "C832", "C833", "C834", "C835", "C836", "C837", "C838", "C839", "C840", "C841", "C842", "C843", "C844", "C845", "C846", "C847", "C848", "C849", "C850", "C851", "C852", "C857", "C859", "C860", "C861", "C862", "C863", "C864", "C865", "C866"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

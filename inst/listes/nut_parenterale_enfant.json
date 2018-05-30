@@ -1,0 +1,13 @@
+{
+  "nom": ["Nutrition parent lg cours (hors séances) < 18 ans"],
+  "abrege": ["nut_parenterale_enfant"],
+  "thematique": ["Recours Exceptionnel"],
+  "agemax": [17],
+  "autres": ["duree > 10"],
+  "diags": ["E76", "E743", "K90", "P77", "K50", "K51", "Q41", "Q431", "K912", "Z9482", "T8680"],
+  "positions_diags": ["toutes"],
+  "actes": ["HSLF001", "HSLF002", "HSLF003"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493288162]
+}

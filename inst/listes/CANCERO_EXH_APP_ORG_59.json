@@ -1,0 +1,11 @@
+{
+  "nom": ["VOIES URINAIRES : Voies urinaires hautes"],
+  "abrege": ["CANCERO_EXH_APP_ORG_59"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C65", "C66", "D411", "D412"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

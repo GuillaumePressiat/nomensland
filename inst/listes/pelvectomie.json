@@ -1,0 +1,9 @@
+{
+  "nom": ["Pelvectomie"],
+  "abrege": ["pelvectomie"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["JFFA001", "JFFA004", "JFFA005", "JFFA008", "JFFA009", "JFFA011", "JFFA013", "JFFA016", "JFFA018", "JFFA019", "JFFA022"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493288197]
+}

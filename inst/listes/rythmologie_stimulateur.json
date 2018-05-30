@@ -1,0 +1,9 @@
+{
+  "nom": ["Rythmologie : stimulateur"],
+  "abrege": ["rythmologie_stimulateur"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DEEF001", "DEEF002", "DEGF001", "DEGF002", "DEGF003", "DEGF004", "DEGF005", "DEGF006", "DELF017", "DELF018", "DELF019", "DELF901", "DELF015", "DELF902", "DELF903", "DELF904", "DELF905", "DELF001", "DELF005", "DELF006", "DELF007", "DELF010", "DELF011", "DELF012", "DEKA001"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736289]
+}

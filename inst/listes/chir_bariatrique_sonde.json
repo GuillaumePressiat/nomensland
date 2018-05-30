@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l'obésité : sonde"],
+  "abrege": ["chir_bariatrique_sonde"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFGC900", "HFLC900"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493730283]
+}

@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Colon-Rectum-Anus"],
+  "abrege": ["CANCERO_EXH_APP_ORG_02"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C180", "C181", "C182", "C183", "C184", "C185", "C186", "C187", "C188", "C189", "C189+0", "C189+8", "C19", "C20", "C210", "C211", "C212", "C218", "D010", "D011", "D012", "D013", "D373", "D374", "D375"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

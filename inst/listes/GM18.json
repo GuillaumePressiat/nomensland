@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie du poignet"],
+  "abrege": ["GM18"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["MGCC001", "MJFA004", "MJPA011"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

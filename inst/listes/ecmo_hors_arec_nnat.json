@@ -1,0 +1,10 @@
+{
+  "nom": ["ECMO hors AREC néonatale"],
+  "abrege": ["ecmo_hors_arec_nnat"],
+  "thematique": ["Recours Exceptionnel"],
+  "autres": ["((!is.na(agejr) & agejr > 28)| agean > 28/365.25)"],
+  "actes": ["EQLA001", "EQLA002"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493286359]
+}

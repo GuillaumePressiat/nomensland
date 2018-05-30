@@ -1,0 +1,12 @@
+{
+  "nom": ["Chirurgie de recours de l'oesophage (hors cancer)"],
+  "abrege": ["chir_oesophage_hors_cancer"],
+  "thematique": ["Recours Exceptionnel"],
+  "diags": ["T281", "T286", "K222", "K223"],
+  "diags_exclus": ["C"],
+  "positions_diags": ["toutes"],
+  "actes": ["HECA002", "HEFA002", "HEFA003", "HEFA006", "HEFA007", "HEFA009", "HEFA011", "HEFA012", "HEFA016", "HEFA018", "HEFA022", "HEPA005", "HEPA007", "HEMA001", "HEMA005"],
+  "date_saisie": ["2017-01-23T23:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493282350]
+}

@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Estomac"],
+  "abrege": ["CANCERO_EXH_APP_ORG_03"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C160", "C161", "C162", "C163", "C164", "C165", "C166", "C168", "C169", "C169+0", "C169+8", "D002", "D371"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de la conjonctive (ptérygion)"],
+  "abrege": ["GM05"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["BCFA003", "BCFA004", "BCFA005", "BCFA006", "BCFA008", "BCFA009"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

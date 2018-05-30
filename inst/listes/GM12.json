@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de la main pour réparation des ligaments et tendons"],
+  "abrege": ["GM12"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["MHCA002", "MHCA003", "MJPA013", "PCPA006"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

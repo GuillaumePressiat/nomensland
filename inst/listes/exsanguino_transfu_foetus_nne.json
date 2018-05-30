@@ -1,0 +1,10 @@
+{
+  "nom": ["Exsanguino-transfusion chez le foetus ou le nv-né"],
+  "abrege": ["exsanguino_transfu_foetus_nne"],
+  "thematique": ["Recours Exceptionnel"],
+  "agemax": [1],
+  "actes": ["JQLF002", "FELF005"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493287713]
+}

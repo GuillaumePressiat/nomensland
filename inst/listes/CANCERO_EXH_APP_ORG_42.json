@@ -1,0 +1,11 @@
+{
+  "nom": ["PEAU : Autre (peau)"],
+  "abrege": ["CANCERO_EXH_APP_ORG_42"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C440", "C441", "C442", "C443", "C444", "C445", "C446", "C447", "C448", "C449", "C460", "D040", "D041", "D042", "D043", "D044", "D045", "D046", "D047", "D048", "D049", "D485"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

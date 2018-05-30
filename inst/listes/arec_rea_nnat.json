@@ -1,0 +1,10 @@
+{
+  "nom": ["AREC en réanimation néo-natale"],
+  "abrege": ["arec_rea_nnat"],
+  "thematique": ["Recours Exceptionnel"],
+  "agejrmax": [28],
+  "actes": ["GLJF010"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493281918]
+}

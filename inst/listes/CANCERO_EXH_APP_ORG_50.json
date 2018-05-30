@@ -1,0 +1,11 @@
+{
+  "nom": ["VADS : Fosses nasales, sinus, oreille moy/int"],
+  "abrege": ["CANCERO_EXH_APP_ORG_50"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C300", "C301", "C310", "C311", "C312", "C313", "C318", "C319"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

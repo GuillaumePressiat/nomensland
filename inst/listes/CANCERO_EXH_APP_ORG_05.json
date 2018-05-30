@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Intestin grêle"],
+  "abrege": ["CANCERO_EXH_APP_ORG_05"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C170", "C171", "C172", "C173", "C178", "C179", "D014", "D372"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

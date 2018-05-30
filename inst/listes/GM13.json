@@ -1,0 +1,10 @@
+{
+  "nom": ["Chirurgie pour strabisme"],
+  "abrege": ["GM13"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "agemin": [8],
+  "actes": ["BJDA001", "BJDA002", "BJEA001", "BJMA001", "BJMA002", "BJMA003", "BJMA004", "BJMA005", "BJMA006", "BJMA007", "BJMA008", "BJMA009"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Péritoine-rétropéritoine"],
+  "abrege": ["CANCERO_EXH_APP_ORG_08"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C451", "C480", "C481", "C482", "C488", "D483", "D4830", "D4838", "D484"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

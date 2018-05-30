@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l'obésité : court-circuit biliopancréatique"],
+  "abrege": ["chir_bariatrique_ccb"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFFC004", "HFFA001", "HGCA009", "HGCC027"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493729802]
+}

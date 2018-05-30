@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie des hernies inguinales"],
+  "abrege": ["GM08"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["LMMA008", "LMMA012", "LMMA016", "LMMA017", "LMMC002", "LMMC003"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Curiethérapie intracavitaire pulsée vaginale ou utérovaginale"],
+  "abrege": ["curietherapie_intra_cavaire"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["JKNL002", "JKNL006", "JLNL006", "JLNL007"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493282552]
+}

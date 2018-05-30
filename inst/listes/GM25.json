@@ -1,0 +1,10 @@
+{
+  "nom": ["Geste sur la vessie"],
+  "abrege": ["GM25"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "agemin": [2],
+  "actes": ["JCLE004", "JDNE001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

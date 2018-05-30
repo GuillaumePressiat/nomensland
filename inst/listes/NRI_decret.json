@@ -1,0 +1,10 @@
+{
+  "nom": ["Neuro-radiologie interventionnelle – liste décret"],
+  "abrege": ["NRI_decret"],
+  "thematique": ["Neurosciences"],
+  "actes": ["EACF002", "EASF001", "EASF008", "EASF011", "EACF001", "EASF007", "EASF010", "EASF013", "EAAF001", "EAAF002", "EAAF004", "EAAF900", "EAAF901", "EAAF902", "EAAF903", "EANF001", "EANF002", "EASF002", "EASF003", "EASF004", "EASF005", "EASF006", "EASF009", "EASF012", "EASF014", "EASF015", "ENSF002", "ENSF003"],
+  "date_saisie": ["2017-07-19T22:00:00Z"],
+  "commentaire": ["Liste issue du décret portant sur l’autorisation des activités de NRI"],
+  "auteur": ["DHOS"],
+  "timestamp": [1500563758]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Cardiologie interventionnelle soumise à autorisation Type 2"],
+  "abrege": ["cardio_interv_autorisation_2"],
+  "thematique": ["Cardiologie interventionnelle soumise à autorisation"],
+  "actes": ["DAAF001", "DAAF002", "DAAF003", "DAGF001", "DAMF001", "DASF001", "DASF002", "DASF003", "DASF004", "DBAF001", "DBAF002", "DBAF003", "DBAF004", "DBAF005", "DBSF001", "DDSF001", "DFAF001", "DFAF002", "DFAF003", "DGAF001", "DGAF003", "DGAF004", "DGAF006", "DGAF007", "DGLF003", "EZGF001"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493737239]
+}

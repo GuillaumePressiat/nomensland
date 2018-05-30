@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de la main pour maladie de Dupuytren"],
+  "abrege": ["GM06"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["MJFA006", "MJFA010", "MJPA005", "MJPB001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

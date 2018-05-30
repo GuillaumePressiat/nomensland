@@ -1,0 +1,12 @@
+{
+  "nom": ["Résection par thoracoscopie des lésions pulmonaires congénitales de diagnostic anténatal"],
+  "abrege": ["resection_thora_lesion_pulmo_congenital_nne"],
+  "thematique": ["Recours Exceptionnel"],
+  "agemax": [2],
+  "diags": ["Q33"],
+  "positions_diags": ["toutes"],
+  "actes": ["GFFA009", "GFFC002", "GFFC003", "GFFC004", "ZBQC001"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493288355]
+}

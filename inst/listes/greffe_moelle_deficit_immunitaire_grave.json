@@ -1,0 +1,12 @@
+{
+  "nom": ["Greffes de moelle en cas de grave déficit immunitaire"],
+  "abrege": ["greffe_moelle_deficit_immunitaire_grave"],
+  "thematique": ["Recours Exceptionnel"],
+  "agemax": [14],
+  "ghm": ["27Z02"],
+  "diags": ["D761", "D80", "D81", "D82", "D83", "D840", "D841", "D848", "Q782"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-07-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493287781]
+}

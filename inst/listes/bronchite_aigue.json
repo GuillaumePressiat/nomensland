@@ -1,0 +1,11 @@
+{
+  "nom": ["Bronchite aiguë"],
+  "abrege": ["bronchite_aigue"],
+  "thematique": ["Épidémies grippe et infections respiratoires adultes"],
+  "agemin": [16],
+  "diags": ["J20"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-05-11T22:00:00Z"],
+  "auteur": ["DOMU - Urgences"],
+  "timestamp": [1494598611]
+}

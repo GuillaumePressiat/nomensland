@@ -1,0 +1,11 @@
+{
+  "nom": ["OS / TISSUS MOUS : Tissus mous, nca"],
+  "abrege": ["CANCERO_EXH_APP_ORG_41"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C461", "C490", "C491", "C492", "C493", "C4930", "C4938", "C494", "C4940", "C4948", "C495", "C4950", "C4958", "C496", "C498", "C499", "D481"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,12 @@
+{
+  "nom": ["Sommeil"],
+  "abrege": ["sommeil"],
+  "thematique": ["Sommeil"],
+  "diags": ["G470", "G471", "G472", "G473", "G474"],
+  "positions_diags": ["toutes"],
+  "actes": ["GLQP007", "AMQP012", "AMQP013", "AMQP014", "AMQP015", "AMQP009", "GLMP001", "AZQP001"],
+  "date_saisie": ["2017-05-18T22:00:00Z"],
+  "commentaire": ["Autres diagnostics possibles : G478, G479, Z04800, Z04801"],
+  "auteur": ["DOMU"],
+  "timestamp": [1494598712]
+}

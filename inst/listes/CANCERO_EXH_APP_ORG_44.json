@@ -1,0 +1,11 @@
+{
+  "nom": ["SEIN : Sein"],
+  "abrege": ["CANCERO_EXH_APP_ORG_44"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C500", "C501", "C502", "C503", "C504", "C505", "C506", "C508", "C509", "D050", "D051", "D057", "D059", "D486"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

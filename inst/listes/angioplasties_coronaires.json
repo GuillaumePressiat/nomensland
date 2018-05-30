@@ -1,0 +1,9 @@
+{
+  "nom": ["Angioplasties : Angioplasties coronaires"],
+  "abrege": ["angioplasties_coronaires"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DDAF001", "DDAF003", "DDAF004", "DDAF006", "DDAF007", "DDAF008", "DDAF009", "DDAF010", "DDFF001", "DDFF002", "DDPF002"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736519]
+}

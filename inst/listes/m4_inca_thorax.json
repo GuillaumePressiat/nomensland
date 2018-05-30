@@ -1,0 +1,12 @@
+{
+  "nom": ["Thorax"],
+  "abrege": ["m4_inca_thorax"],
+  "thematique": ["Cancérologie : Chirurgie M4 Inca"],
+  "agemin": [18],
+  "autres": ["rsatype == 'C'"],
+  "diags": ["C33", "C340", "C341", "C342", "C343", "C348", "C349", "C37", "C380", "C381", "C382", "C383", "C384", "C388", "C390", "C398", "C399", "C450", "C452", "C4672", "C771", "C780", "C781", "C782", "C783", "D021", "D022", "D023", "D024", "D381", "D382", "D383", "D384", "D385", "D386"],
+  "positions_diags": ["dp"],
+  "date_saisie": ["2017-05-31T22:00:00Z"],
+  "auteur": ["Inca"],
+  "timestamp": [1494598713]
+}

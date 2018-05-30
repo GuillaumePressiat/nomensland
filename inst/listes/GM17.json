@@ -1,0 +1,9 @@
+{
+  "nom": ["Avulsion dentaire"],
+  "abrege": ["GM17"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["HBED022", "HBGD003", "HBGD004", "HBGD007", "HBGD010", "HBGD016", "HBGD017", "HBGD018", "HBGD021", "HBGD025", "HBGD026", "HBGD029", "HBGD038", "HBGD042", "HBGD045", "HBPA001", "HBPD002"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

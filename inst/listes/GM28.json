@@ -1,0 +1,11 @@
+{
+  "nom": ["Cure de paraphimosis"],
+  "abrege": ["GM28"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "agemin": [1],
+  "agemax": [16],
+  "actes": ["JHEA003"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

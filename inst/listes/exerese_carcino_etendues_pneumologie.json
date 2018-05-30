@@ -1,0 +1,9 @@
+{
+  "nom": ["Exérèses carcinilogiques étendues en pneumologie"],
+  "abrege": ["exerese_carcino_etendues_pneumologie"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["GFFA002", "GFFA006", "GFFA007", "GFFA008", "GFFA010", "GFFA015", "GFFA016", "GFFA022", "GFFA025", "GFFA027", "GFFA028", "GFFA030", "GFFA031", "GFFA033", "GFFA034"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493287671]
+}

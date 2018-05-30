@@ -1,0 +1,9 @@
+{
+  "nom": ["Coronarographies : coronarographies"],
+  "abrege": ["coronarographies"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DDQH006", "DDQH009", "DDQH010", "DDQH011", "DDQH012", "DDQH013", "DDQH014", "DDQH015"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736831]
+}

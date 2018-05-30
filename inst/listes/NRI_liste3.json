@@ -1,0 +1,10 @@
+{
+  "nom": ["Neuro-radiologie interventionnelle – liste 3"],
+  "abrege": ["NRI_liste3"],
+  "thematique": ["Neurosciences"],
+  "actes": ["EBQH002", "EBQH003", "EBQH005", "EBQH007", "EBQH008", "EBQH010", "EBQH011"],
+  "date_saisie": ["2017-07-19T22:00:00Z"],
+  "commentaire": ["Liste conçue par les neuro-radiologues de l’AP-HP complémentaire de la liste du décret"],
+  "auteur": ["GT Neurosciences AP-HP"],
+  "timestamp": [1500563759]
+}

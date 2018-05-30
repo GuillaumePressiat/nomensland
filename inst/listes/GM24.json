@@ -1,0 +1,11 @@
+{
+  "nom": ["Chirurgie des hernies de l’enfant"],
+  "abrege": ["GM24"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "agemin": [1],
+  "agemax": [16],
+  "actes": ["LMMA011", "LMMA014", "LMMA018", "LMMC004"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

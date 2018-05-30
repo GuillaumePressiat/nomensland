@@ -1,0 +1,9 @@
+{
+  "nom": ["Interruption tubaire"],
+  "abrege": ["GM36"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["JJPA004", "JJPC003", "JJPE001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

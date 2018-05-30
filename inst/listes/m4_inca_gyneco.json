@@ -1,0 +1,13 @@
+{
+  "nom": ["Gynécologie"],
+  "abrege": ["m4_inca_gyneco"],
+  "thematique": ["Cancérologie : Chirurgie M4 Inca"],
+  "agemin": [18],
+  "autres": ["rsatype == 'C'"],
+  "ghm_exclus": ["24C28Z", "13C11Z", "13C11J", "13C111", "13C112", "13C113", "13C114"],
+  "diags": ["C510", "C511", "C512", "C518", "C519", "C52", "C530", "C531", "C538", "C539", "C540", "C541", "C542", "C543", "C548", "C549", "C55", "C56", "C570", "C571", "C572", "C573", "C574", "C577", "C578", "C579", "C58", "C796", "D390", "D391", "D392", "D397", "D399"],
+  "positions_diags": ["dp"],
+  "date_saisie": ["2017-05-31T22:00:00Z"],
+  "auteur": ["Inca"],
+  "timestamp": [1494598713]
+}

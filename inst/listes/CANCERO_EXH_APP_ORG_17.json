@@ -1,0 +1,11 @@
+{
+  "nom": ["HEMATOLOGIE : Leucémie aigue, autre"],
+  "abrege": ["CANCERO_EXH_APP_ORG_17"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C940", "C942", "C944", "C945", "C946", "C950", "C952"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

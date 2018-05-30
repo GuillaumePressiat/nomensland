@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Autre (appareil digestif)"],
+  "abrege": ["CANCERO_EXH_APP_ORG_01"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C260", "C261", "C268", "C269", "C4671", "D017", "D019", "D377", "D379"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

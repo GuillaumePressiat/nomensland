@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l’épaule"],
+  "abrege": ["GM40"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["MEMA006", "MEMC001", "MEMC002", "MEMC003", "MEMC004"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

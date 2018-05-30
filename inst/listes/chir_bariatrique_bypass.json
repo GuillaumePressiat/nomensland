@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l'obésité : Bypass"],
+  "abrege": ["chir_bariatrique_bypass"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFCA001", "HFCC003"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493729687]
+}

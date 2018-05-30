@@ -1,0 +1,11 @@
+{
+  "nom": ["ORGANES GENITAUX MASCULINS : Autre (organes génitaux masculins)"],
+  "abrege": ["CANCERO_EXH_APP_ORG_36"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C630", "C631", "C632", "C637", "C638", "C639", "D076", "D407", "D409"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

@@ -1,0 +1,10 @@
+{
+  "nom": ["Obésité"],
+  "abrege": ["obesite"],
+  "thematique": ["Obésité"],
+  "diags": ["E66"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493731136]
+}

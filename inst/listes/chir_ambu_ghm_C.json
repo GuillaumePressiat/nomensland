@@ -1,0 +1,10 @@
+{
+  "nom": ["GHM C  (hors CMD 14 et 15)"],
+  "abrege": ["chir_ambu_ghm_C"],
+  "thematique": ["Chir ambu : GHM C"],
+  "ghm": ["..C..."],
+  "ghm_exclus": ["^14C", "^15C"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ATIH"],
+  "timestamp": [1497823200]
+}

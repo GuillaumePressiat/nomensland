@@ -1,0 +1,9 @@
+{
+  "nom": ["Rythmologie : électrophysiologie"],
+  "abrege": ["rythmologie_electrophysiologie"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DENF001", "DENF002", "DENF003", "DENF014", "DENF015", "DENF017", "DENF018", "DENF021", "DENF035", "DEPF002", "DEPF003", "DEPF004", "DEPF005", "DEPF010", "DEPF012", "DEPF014", "DEPF025", "DEPF033", "DEPF006", "DEPF001", "DERF001", "DERF002", "DERF003", "DERF004"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736202]
+}

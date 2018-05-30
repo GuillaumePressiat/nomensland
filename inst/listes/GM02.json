@@ -1,0 +1,9 @@
+{
+  "nom": ["Arthroscopies du genou hors ligamentoplasties"],
+  "abrege": ["GM02"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["NFPC002", "NFFC002", "NFEC001", "NFEC002", "NFFC003", "NFFC004", "NFJC001", "NFJC002", "NFPC001", "NFQC001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

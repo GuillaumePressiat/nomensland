@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie du pied"],
+  "abrege": ["GM19"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["NDGA003", "NJPA007", "NDFA002", "NGFA002"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

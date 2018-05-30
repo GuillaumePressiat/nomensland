@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie de l'obésité : gastroplastie verticale calibrée"],
+  "abrege": ["chir_bariatrique_gvc"],
+  "thematique": ["Chirurgie bariatrique"],
+  "actes": ["HFMA010", "HFMC006"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1493729897]
+}

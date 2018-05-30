@@ -1,0 +1,9 @@
+{
+  "nom": ["Pose d'assistance circulatoire"],
+  "abrege": ["pose_assistance_circu"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["EQKA003", "EQLA003", "EQLA004", "EQLA005", "EQLA006", "EQLA007", "EQLA008", "EQLA009", "EQLA010", "EQLA011"],
+  "date_saisie": ["2017-05-03T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493908409]
+}

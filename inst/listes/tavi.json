@@ -1,0 +1,9 @@
+{
+  "nom": ["Valves : TAVI"],
+  "abrege": ["tavi"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DBLF009", "DBLF001"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736783]
+}

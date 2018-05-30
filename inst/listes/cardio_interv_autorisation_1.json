@@ -1,0 +1,9 @@
+{
+  "nom": ["Cardiologie interventionnelle soumise à autorisation Type 1"],
+  "abrege": ["cardio_interv_autorisation_1"],
+  "thematique": ["Cardiologie interventionnelle soumise à autorisation"],
+  "actes": ["DENF001", "DENF002", "DENF003", "DENF014", "DENF015", "DENF017", "DENF018", "DENF021", "DENF035", "DEPF002", "DEPF003", "DEPF004", "DEPF005", "DEPF010", "DEPF012", "DEPF014", "DEPF025", "DEPF033"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493737026]
+}

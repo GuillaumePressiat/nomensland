@@ -1,0 +1,13 @@
+{
+  "nom": ["Cathétérisme cardiaque interventionnel pédiatrique pour cardiopathies congénitales"],
+  "abrege": ["cathe_cardiaque_interv_pediatrique_cardiopathie_congenitales"],
+  "thematique": ["Recours Exceptionnel"],
+  "agemax": [15],
+  "diags": ["Q20", "Q21", "Q22", "Q23", "Q24", "Q25", "Q26"],
+  "positions_diags": ["toutes"],
+  "actes": ["DAAF001", "DAAF002", "DAGF001", "DAHF001", "DAMF001", "DASF003", "DBAF001", "DBAF002", "DBAF003", "DBAF004", "DBAF005", "DBLF009", "DGAF001", "DGAF003", "DGAF004", "DGAF006", "DGAF007", "DGLF003", "EZGF001"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "commentaire": ["Catégories d'âge suivantes : { [0 - 28 jours] ; [29 jours ; 1 an[ ; [1 an ; 5 ans] ; [6 ans ; 15 ans ] }"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493282163]
+}

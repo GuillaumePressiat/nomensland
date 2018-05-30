@@ -1,0 +1,9 @@
+{
+  "nom": ["Thermo ablation de tumeur hépatique par radiofréquence, voie transcutanée"],
+  "abrege": ["thermo_ablation_tumeur_voie_transcutanee"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["HLNK001", "HLNM001", "HLNN900"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493288481]
+}

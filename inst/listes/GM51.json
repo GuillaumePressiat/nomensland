@@ -1,0 +1,9 @@
+{
+  "nom": ["Geste sur les glandes salivaires"],
+  "abrege": ["GM51"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["HCFA007", "HCPA001", "HCGA001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

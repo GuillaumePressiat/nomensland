@@ -1,0 +1,12 @@
+{
+  "nom": ["Sein"],
+  "abrege": ["m4_inca_sein"],
+  "thematique": ["Cancérologie : Chirurgie M4 Inca"],
+  "agemin": [18],
+  "autres": ["rsatype == 'C'"],
+  "diags": ["C500", "C501", "C502", "C503", "C504", "C505", "C506", "C508", "C509", "C773", "D050", "D051", "D057", "D059", "D486"],
+  "positions_diags": ["dp"],
+  "date_saisie": ["2017-05-31T22:00:00Z"],
+  "auteur": ["Inca"],
+  "timestamp": [1494598713]
+}

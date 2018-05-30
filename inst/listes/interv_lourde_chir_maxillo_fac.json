@@ -1,0 +1,9 @@
+{
+  "nom": ["Intervention lourde en chirurgie maxillofaciale"],
+  "abrege": ["interv_lourde_chir_maxillo_fac"],
+  "thematique": ["Recours Exceptionnel"],
+  "actes": ["LBAA001", "LBCB001", "LBCB002", "LALA001", "LALA002", "LBMA001", "LBMA002", "LBMA004", "LBMA006"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493287832]
+}

@@ -1,0 +1,9 @@
+{
+  "nom": ["Angioplasties : Angioplasties pulmonaires"],
+  "abrege": ["angioplasties_pulmonaires"],
+  "thematique": ["Cardiologie interventionnelle"],
+  "actes": ["DFNF001", "DFNF002", "DFSF001"],
+  "date_saisie": ["2017-05-01T22:00:00Z"],
+  "auteur": ["Décret - DOMU"],
+  "timestamp": [1493736665]
+}

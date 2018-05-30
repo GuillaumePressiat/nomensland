@@ -1,0 +1,11 @@
+{
+  "nom": ["HEMATOLOGIE : Maladie myéloproliférative et syndrome myélodysplasique"],
+  "abrege": ["CANCERO_EXH_APP_ORG_28"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["D45", "D460", "D461", "D462", "D463", "D464", "D465", "D466", "D467", "D469", "D470", "D471", "D472", "D473", "D474", "D475", "D477", "D479"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

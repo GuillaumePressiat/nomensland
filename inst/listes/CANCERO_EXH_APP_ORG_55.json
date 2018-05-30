@@ -1,0 +1,11 @@
+{
+  "nom": ["VADS : Pharynx"],
+  "abrege": ["CANCERO_EXH_APP_ORG_55"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C090", "C091", "C098", "C099", "C100", "C101", "C102", "C103", "C104", "C108", "C109", "C110", "C111", "C112", "C113", "C118", "C119", "C12", "C130", "C131", "C132", "C138", "C139", "C140", "C142"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

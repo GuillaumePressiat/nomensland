@@ -1,0 +1,9 @@
+{
+  "nom": ["Chirurgie des varices"],
+  "abrege": ["GM09"],
+  "thematique": ["Chir ambu : 55 GM"],
+  "actes": ["EJFA002", "EJFA004", "EJFA006", "EJFA007", "EJFB001", "EJGA001", "EJGA002", "EJGA003", "EJSA001"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "auteur": ["ARS"],
+  "timestamp": [1497823200]
+}

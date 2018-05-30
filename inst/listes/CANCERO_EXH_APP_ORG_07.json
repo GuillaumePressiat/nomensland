@@ -1,0 +1,11 @@
+{
+  "nom": ["APPAREIL DIGESTIF : Pancréas"],
+  "abrege": ["CANCERO_EXH_APP_ORG_07"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C250", "C251", "C252", "C253", "C254", "C254+0", "C254+8", "C257", "C258", "C259", "C259+0", "C259+8"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

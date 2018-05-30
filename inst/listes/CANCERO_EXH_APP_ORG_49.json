@@ -1,0 +1,11 @@
+{
+  "nom": ["VADS : Cavité orale"],
+  "abrege": ["CANCERO_EXH_APP_ORG_49"],
+  "thematique": ["Cancérologie Méthode Exhaustive"],
+  "diags": ["C030", "C031", "C039", "C040", "C041", "C048", "C049", "C050", "C051", "C052", "C058", "C059", "C060", "C061", "C062", "C068", "C069", "C462"],
+  "positions_diags": ["toutes"],
+  "date_saisie": ["2017-06-18T22:00:00Z"],
+  "commentaire": ["la méthode exhaustive ne se résume pas à la liste de diagnostics"],
+  "auteur": ["DIM siège AP-HP"],
+  "timestamp": [1497823200]
+}

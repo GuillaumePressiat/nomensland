@@ -1,0 +1,12 @@
+{
+  "nom": ["Atrésie des voies biliaires"],
+  "abrege": ["atresie_voies_biliaires"],
+  "thematique": ["Recours Exceptionnel"],
+  "autres": ["substr(ghm,3,3) == 'C'"],
+  "diags": ["Q442"],
+  "positions_diags": ["toutes"],
+  "actes": ["HLCA001", "HLEA002", "HMCA007", "HMCA008", "HLFA019", "HMCA005", "HMFA007", "HMAH001", "HLSA001", "HGCA008", "HMAH002", "HMFA009", "HMJA001", "HMCA001", "HMJH002", "HMCA006", "HLCA002", "HMQH008", "HLJA001", "HMFA001", "HFCA004", "HGCA003", "HMCA011", "HMFA010", "HLFA014"],
+  "date_saisie": ["2017-04-23T22:00:00Z"],
+  "auteur": ["DGOS - ATIH"],
+  "timestamp": [1493281976]
+}
