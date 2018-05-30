@@ -6,16 +6,30 @@
 #' \dontrun{
 #' get_table('dictionnaire_tables')
 #' get_table('ccam_actes')
+#' get_table('cim', 2016:2017)
+#' get_table('tarifs_mco_ghs', 2015:2018)
 #' }
 #'
 #' @author G. Pressiat
 #' @import magrittr jsonlite tibble
 #' @export
 # }
-get_table <- function(table, def_url = path.package("nomensland")){
-  tibble::as_tibble(def_url %>%
-    paste0('/tables/', table, '.json.gz') %>%
-    jsonlite::read_json(simplifyVector = TRUE))
+get_table <- function(table, version = '', def_url = path.package("nomensland")){
+  v <- function(one){
+    if (FALSE || one == ''){
+      u <-   tibble::as_tibble(def_url %>%
+                                 paste0('/tables/', table, '.json.gz') %>%
+                                 jsonlite::read_json(simplifyVector = TRUE))
+    } else {
+      u <-   tibble::as_tibble(def_url %>%
+                                 paste0('/tables/', table, '.json.gz') %>%
+                                 jsonlite::read_json(simplifyVector = TRUE)) %>% 
+        dplyr::filter(anseqta %in% as.character(version))
+    }
+    return(u)
+  }
+  return(v(version))
+
 }
 
 #' ~ api : recuperer une liste
@@ -48,8 +62,8 @@ get_liste <- function(nom_liste, def_url = path.package("nomensland")){
 #' @importFrom dplyr filter
 #' @export
 get_all_listes <- function(theme, def_url = path.package("nomensland")){
-  get_dictionnaire() %>%
-    filter(thematique == theme) %>% .$nom_abrege -> l
+  get_dictionnaire_listes() %>%
+    dplyr::filter(thematique == theme) %>% .$nom_abrege -> l
   lapply(l, get_liste)
 }
 

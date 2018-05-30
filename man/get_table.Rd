@@ -4,7 +4,7 @@
 \alias{get_table}
 \title{~ api : recuperer une table (referentiel)}
 \usage{
-get_table(table, def_url = path.package("nomensland"))
+get_table(table, version = "", def_url = path.package("nomensland"))
 }
 \description{
 ~ api : recuperer une table (referentiel)
@@ -13,6 +13,8 @@ get_table(table, def_url = path.package("nomensland"))
 \dontrun{
 get_table('dictionnaire_tables')
 get_table('ccam_actes')
+get_table('cim', 2016:2017)
+get_table('tarifs_mco_ghs', 2015:2018)
 }
 
 }
