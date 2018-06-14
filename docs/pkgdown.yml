@@ -1,0 +1,7 @@
+pandoc: 1.17.2
+pkgdown: 1.1.0
+pkgdown_sha: ~
+articles:
+  vignette1: vignette1.html
+  vignette2: vignette2.html
+

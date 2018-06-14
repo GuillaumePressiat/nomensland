@@ -1,0 +1,76 @@
+---
+title: "Accéder à des référentiels"
+author: "G. Pressiat"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Accéder à des référentiels}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Exemples d'accès à une table
+
+## CCAM
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+
+
+library(nomensland)
+
+ccam <- get_table('ccam_actes')
+dplyr::glimpse(ccam)
+```
+
+## CIM-10
+
+```{r}
+library(nomensland)
+
+cim17_18 <- get_table('cim', 2017:2018)
+dplyr::glimpse(cim17_18)
+```
+
+## GHM
+
+```{r}
+library(nomensland)
+
+ghm_rgp <- get_table('ghm_ghm_regroupement')
+dplyr::glimpse(ghm_rgp)
+```
+
+## GHS
+
+```{r}
+library(nomensland)
+
+ghs <- get_table('tarifs_mco_ghs')
+dplyr::glimpse(ghs)
+```
+
+
+# Dictionnaire des tables
+
+Un dictionnaire des tables et des variables est disponible.
+
+```{r}
+library(nomensland)
+get_table('dictionnaire_tables') -> dico
+
+DT::datatable(dplyr::distinct(dico, nom_table, commentaire_table, anseqta) %>% 
+                select(nom_table, commentaire_table, anseqta) %>% 
+                dplyr::arrange(nom_table), 
+              escape = F, rownames = F, options = list(pageLength = 50))
+
+```
+

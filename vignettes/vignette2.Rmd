@@ -1,0 +1,52 @@
+---
+title: "Accéder à des listes de requêtes"
+author: "G. Pressiat"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Accéder à des listes de requêtes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Exemples d'accès à une requête
+
+## Chimiothérapie hyperthermique intra-péritonéale (CHIP)
+
+```{r}
+library(nomensland)
+
+get_liste('chip')
+```
+
+## Cancérologie : Chirurgie M4 Inca, Digestif
+
+```{r}
+library(nomensland)
+
+get_liste('m4_inca_digestif')
+```
+
+# Exemples d'accès à une thématique (liste de requêtes)
+
+On accède à un ensemble de listes (liste de listes)
+
+```{r}
+objet <- get_all_listes('Recours Exceptionnel')
+
+listviewer::jsonedit(objet, mode = "code")
+```
+
+# Accéder au dictionnaire des listes
+
+```{r}
+dplyr::glimpse(get_dictionnaire_listes())
+```
