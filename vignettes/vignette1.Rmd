@@ -67,8 +67,8 @@ Un dictionnaire des tables et des variables est disponible.
 library(nomensland)
 get_table('dictionnaire_tables') -> dico
 
-DT::datatable(dplyr::distinct(dico, nom_table, commentaire_table, anseqta) %>% 
-                select(nom_table, commentaire_table, anseqta) %>% 
+DT::datatable(dplyr::distinct(dico, nom_table, commentaire_table, anseqta, version) %>% 
+                select(nom_table, commentaire_table, anseqta, version) %>% 
                 dplyr::arrange(nom_table), 
               escape = F, rownames = F, options = list(pageLength = 50))
 
