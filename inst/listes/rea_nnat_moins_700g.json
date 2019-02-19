@@ -3,6 +3,7 @@
   "abrege": ["rea_nnat_moins_700g"],
   "thematique": ["Recours Exceptionnel"],
   "poidsmax": [700],
+  "agejrmax":[28],
   "autres": ["!is.na(poids) & poids != 0 & schpmsi != '9' & !(schpmsi == '7' & duree > 0 & duree < 6)"],
   "date_saisie": ["2017-04-23T22:00:00Z"],
   "auteur": ["DGOS - ATIH"],
