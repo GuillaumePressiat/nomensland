@@ -113,7 +113,7 @@ explore_nomensland <- function(launch.browser = getOption("shiny.launch.browser"
   appDir <- system.file("explore_nomensland", "explore_nomensland", package = "nomensland")
   if (appDir == "") {
     # https://deanattali.com/2015/04/21/r-package-shiny-app/
-    stop("Could not find transcoder directory. Try re-installing nomensland.", call. = FALSE)
+    stop("Could not find explore_nomensland directory. Try re-installing nomensland.", call. = FALSE)
   }
   
   shiny::runApp(appDir, display.mode = "normal", launch.browser = launch.browser)
