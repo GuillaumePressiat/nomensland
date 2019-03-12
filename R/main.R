@@ -104,3 +104,17 @@ get_dictionnaire_tables <- function(def_url = path.package("nomensland")){
     dplyr::distinct(nom_table, commentaire_table, source_table, version) %>% 
     dplyr::as_tibble()
 }
+
+
+#' @title  Explorer les tables avec shiny
+#'
+#' @export
+explore_nomensland <- function(launch.browser = getOption("shiny.launch.browser", interactive())) {
+  appDir <- system.file("explore_nomensland", "explore_nomensland", package = "nomensland")
+  if (appDir == "") {
+    # https://deanattali.com/2015/04/21/r-package-shiny-app/
+    stop("Could not find transcoder directory. Try re-installing nomensland.", call. = FALSE)
+  }
+  
+  shiny::runApp(appDir, display.mode = "normal", launch.browser = launch.browser)
+}

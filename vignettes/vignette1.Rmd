@@ -74,3 +74,12 @@ DT::datatable(dplyr::distinct(dico, nom_table, commentaire_table, anseqta, versi
 
 ```
 
+
+# Visualiser les tables avec shiny
+
+```{r eval = FALSE}
+library(nomensland)
+explore_nomensland()
+```
+
+![](explore_nomensland.png)

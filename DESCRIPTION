@@ -1,7 +1,7 @@
 Package: nomensland
 Type: Package
 Title: Package contenant des nomenclatures et classifications pour le PMSI
-Version: 0.0.1
+Version: 0.0.2
 Date: 2018-04-16
 Author: Guillaume Pressiat
 Authors@R: c(person('Guillaume Pressiat', role = c("aut", "cre")))
@@ -9,7 +9,7 @@ Maintainer: Guillaume Pressiat <guillaume.pressiat@aphp.fr>
 Description: Package contenant des nomenclatures et classifications pour le PMSI
 License: GPL-2 | file LICENSE
 LazyData: TRUE
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Encoding: UTF-8
 Suggests: knitr,

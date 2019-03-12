@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>~ api : recuperer une table (referentiel) — get_table • nomensland</title>
+<title>Explorer les tables avec shiny — explore_nomensland • nomensland</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
 
 
 
-<meta property="og:title" content="~ api : recuperer une table (referentiel) — get_table" />
+<meta property="og:title" content="Explorer les tables avec shiny — explore_nomensland" />
 
-<meta property="og:description" content="~ api : recuperer une table (referentiel)" />
+<meta property="og:description" content="Explorer les tables avec shiny" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -109,38 +109,27 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>~ api : recuperer une table (referentiel)</h1>
+    <h1>Explorer les tables avec shiny</h1>
     
-    <div class="hidden name"><code>get_table.Rd</code></div>
+    <div class="hidden name"><code>explore_nomensland.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>~ api : recuperer une table (referentiel)</p>
+    <p>Explorer les tables avec shiny</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>get_table</span>(<span class='no'>table</span>, <span class='kw'>version</span> <span class='kw'>=</span> <span class='st'>""</span>, <span class='kw'>def_url</span> <span class='kw'>=</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/find.package'>path.package</a></span>(<span class='st'>"nomensland"</span>))</pre>
+    <pre class="usage"><span class='fu'>explore_nomensland</span>(<span class='kw'>launch.browser</span> <span class='kw'>=</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/options'>getOption</a></span>(<span class='st'>"shiny.launch.browser"</span>,
+  <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/interactive'>interactive</a></span>()))</pre>
         
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><span class='co'># NOT RUN {</span>
-<span class='fu'>get_table</span>(<span class='st'>'dictionnaire_tables'</span>)
-<span class='fu'>get_table</span>(<span class='st'>'ccam_actes'</span>)
-<span class='fu'>get_table</span>(<span class='st'>'cim'</span>, <span class='fl'>2016</span>:<span class='fl'>2017</span>)
-<span class='fu'>get_table</span>(<span class='st'>'tarifs_mco_ghs'</span>, <span class='fl'>2015</span>:<span class='fl'>2018</span>)
-<span class='co'># }</span><div class='input'>
-</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-            
-      <li><a href="#examples">Examples</a></li>
-    </ul>
+                </ul>
 
-    <h2>Author</h2>
-    <p>G. Pressiat</p>
   </div>
 </div>
 
