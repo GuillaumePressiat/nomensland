@@ -24,7 +24,8 @@ get_table <- function(table, version = '', def_url = path.package("nomensland"))
       u <-   tibble::as_tibble(def_url %>%
                                  paste0('/tables/', table, '.json.gz') %>%
                                  jsonlite::read_json(simplifyVector = TRUE)) %>% 
-        dplyr::filter(anseqta %in% as.character(version))
+        dplyr::filter(time_i %in% as.character(version)) %>%
+        dplyr::select(-time_i)
     }
     return(u)
   }
