@@ -12,6 +12,10 @@ LazyData: TRUE
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
 Encoding: UTF-8
+Imports:
+    dplyr,
+    tibble,
+    jsonlite
 Suggests: knitr,
     rmarkdown
 URL: https://guillaumepressiat.github.io/nomensland/
