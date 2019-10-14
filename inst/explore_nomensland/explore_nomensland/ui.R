@@ -13,6 +13,7 @@ shiny::shinyUI(shiny::fluidPage(
                              list(`CCAM` = liste_table$nom_table %>% .[grepl('ccam_', .)],
                                   `CIM` =  liste_table$nom_table %>% .[grepl('cim', .)],
                                   `CSARR` = liste_table$nom_table %>% .[grepl('csarr_', .)],
+                                  `MO, ATU et DMI` = liste_table$nom_table %>% .[grepl('mco_medref_|mco_dmiref_', .)],
                                   `GHM` = liste_table$nom_table %>% .[grepl('ghm_', .)],
                                   `tarifs` = liste_table$nom_table %>% .[grepl('^tarifs_', .)],
                                   `LPP` = liste_table$nom_table %>% .[grepl('lpp_', .)],

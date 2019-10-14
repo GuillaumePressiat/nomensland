@@ -8,12 +8,12 @@ shiny::shinyServer(function(input, output) {
   output$titre_table <- renderText({liste_table %>% filter(nom_table == input$tab) %>% 
       pull(commentaire_table)})
   
-  output$result <- DT::renderDT({nomensland::get_table(input$tab)
-  }, extensions = 'Scroller', options = list(pageLength = 20#,
-                                             # deferRender = TRUE,
-                                             # scrollX = 200,
-                                             # scroller = TRUE
-  ), filter = 'top')
+  output$result <- DT::renderDT({nomensland::get_table(input$tab)}, 
+    filter = 'top', class = 'white-space: nowrap',
+  options = list(lengthChange = FALSE, dom = 'Bfrtip', pageLength = 20,
+                 buttons = c('copy', 'excel', 'colvis'),
+                 scrollY = TRUE, scrollX = TRUE,
+                 scroller = TRUE, server = FALSE))
   
   output$downloadData <- downloadHandler(
     
