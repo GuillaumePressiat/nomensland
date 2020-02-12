@@ -72,17 +72,17 @@
 
       
 
-      </header><script src="vignette1_files/htmlwidgets-1.3/htmlwidgets.js"></script><script src="vignette1_files/jquery-1.12.4/jquery.min.js"></script><link href="vignette1_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="vignette1_files/datatables-binding-0.7/datatables.js"></script><link href="vignette1_files/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="vignette1_files/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="vignette1_files/dt-core-1.10.16/js/jquery.dataTables.min.js"></script><link href="vignette1_files/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet">
+      </header><script src="vignette1_files/htmlwidgets-1.5.1/htmlwidgets.js"></script><script src="vignette1_files/jquery-1.12.4/jquery.min.js"></script><link href="vignette1_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="vignette1_files/datatables-binding-0.10.6/datatables.js"></script><link href="vignette1_files/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="vignette1_files/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="vignette1_files/dt-core-1.10.19/js/jquery.dataTables.min.js"></script><link href="vignette1_files/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet">
 <script src="vignette1_files/crosstalk-1.0.0/js/crosstalk.min.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1>Accéder à des référentiels</h1>
                         <h4 class="author">G. Pressiat</h4>
             
-            <h4 class="date">2019-10-14</h4>
+            <h4 class="date">2020-02-12</h4>
       
       
       <div class="hidden name"><code>vignette1.Rmd</code></div>
@@ -104,15 +104,15 @@
 <a class="sourceLine" id="cb1-5" data-line-number="5"></a>
 <a class="sourceLine" id="cb1-6" data-line-number="6">ccam &lt;-<span class="st"> </span><span class="kw"><a href="../reference/get_table.html">get_table</a></span>(<span class="st">'ccam_actes'</span>)</a>
 <a class="sourceLine" id="cb1-7" data-line-number="7">dplyr<span class="op">::</span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/reexports.html">glimpse</a></span>(ccam)</a>
-<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="co">#&gt; Observations: 8,479</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="co">#&gt; Observations: 8,480</span></a>
 <a class="sourceLine" id="cb1-9" data-line-number="9"><span class="co">#&gt; Variables: 7</span></a>
-<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="co">#&gt; $ code               &lt;chr&gt; "AAFA001", "AAFA002", "AAFA003", "AAFA004", "…</span></a>
-<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="co">#&gt; $ libelle_court      &lt;chr&gt; "exérèse T. intraparench cervelet craniot.", …</span></a>
-<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="co">#&gt; $ type_acte          &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", …</span></a>
-<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="co">#&gt; $ compatibilite_sexe &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", …</span></a>
-<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="co">#&gt; $ date_debut         &lt;int&gt; 12843, 12843, 12843, 12843, 12843, 12843, 128…</span></a>
-<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="co">#&gt; $ libelle_long       &lt;chr&gt; "Exérèse de tumeur intraparenchymateuse du ce…</span></a>
-<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="co">#&gt; $ date_fin           &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span></a></code></pre></div>
+<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="co">#&gt; $ code               &lt;chr&gt; "AAFA001", "AAFA002", "AAFA003", "AAFA004", "AAFA0…</span></a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="co">#&gt; $ libelle_court      &lt;chr&gt; "exérèse T. intraparench cervelet craniot.", "exér…</span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="co">#&gt; $ type_acte          &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", …</span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="co">#&gt; $ compatibilite_sexe &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", …</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="co">#&gt; $ date_debut         &lt;chr&gt; "2005-03-01", "2005-03-01", "2005-03-01", "2005-03…</span></a>
+<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="co">#&gt; $ libelle_long       &lt;chr&gt; "Exérèse de tumeur intraparenchymateuse du cervele…</span></a>
+<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="co">#&gt; $ date_fin           &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA…</span></a></code></pre></div>
 </div>
 <div id="cim-10" class="section level2">
 <h2 class="hasAnchor">
@@ -122,12 +122,14 @@
 <a class="sourceLine" id="cb2-3" data-line-number="3">cim17_<span class="dv">18</span> &lt;-<span class="st"> </span><span class="kw"><a href="../reference/get_table.html">get_table</a></span>(<span class="st">'cim'</span>, <span class="dv">2017</span><span class="op">:</span><span class="dv">2018</span>)</a>
 <a class="sourceLine" id="cb2-4" data-line-number="4">dplyr<span class="op">::</span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/reexports.html">glimpse</a></span>(cim17_<span class="dv">18</span>)</a>
 <a class="sourceLine" id="cb2-5" data-line-number="5"><span class="co">#&gt; Observations: 81,038</span></a>
-<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">#&gt; Variables: 5</span></a>
-<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">#&gt; $ code      &lt;chr&gt; "A00", "A000", "A001", "A009", "A01", "A010", "A011", …</span></a>
-<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">#&gt; $ tr        &lt;chr&gt; "3", "0", "0", "0", "3", "0", "0", "0", "0", "0", "3",…</span></a>
-<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">#&gt; $ lib_court &lt;chr&gt; "CHOLERA", "CHOLERA A VIBRIO CHOLERAE 01, BIOVAR CHOLE…</span></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="co">#&gt; $ lib_long  &lt;chr&gt; "Choléra", "Choléra à Vibrio cholerae 01, biovar chole…</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="co">#&gt; $ anseqta   &lt;chr&gt; "2017", "2017", "2017", "2017", "2017", "2017", "2017"…</span></a></code></pre></div>
+<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">#&gt; Variables: 7</span></a>
+<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">#&gt; $ code      &lt;chr&gt; "A00", "A000", "A001", "A009", "A01", "A010", "A011", "A012…</span></a>
+<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">#&gt; $ tr        &lt;chr&gt; "3", "0", "0", "0", "3", "0", "0", "0", "0", "0", "3", "0",…</span></a>
+<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">#&gt; $ lib_court &lt;chr&gt; "CHOLERA", "CHOLERA A VIBRIO CHOLERAE 01, BIOVAR CHOLERAE",…</span></a>
+<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="co">#&gt; $ lib_long  &lt;chr&gt; "Choléra", "Choléra à Vibrio cholerae 01, biovar cholerae",…</span></a>
+<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="co">#&gt; $ anseqta   &lt;chr&gt; "2017", "2017", "2017", "2017", "2017", "2017", "2017", "20…</span></a>
+<a class="sourceLine" id="cb2-12" data-line-number="12"><span class="co">#&gt; $ tssr      &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></a>
+<a class="sourceLine" id="cb2-13" data-line-number="13"><span class="co">#&gt; $ tpsy      &lt;int&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></a></code></pre></div>
 </div>
 <div id="ghm" class="section level2">
 <h2 class="hasAnchor">
@@ -136,21 +138,22 @@
 <a class="sourceLine" id="cb3-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb3-3" data-line-number="3">ghm_rgp &lt;-<span class="st"> </span><span class="kw"><a href="../reference/get_table.html">get_table</a></span>(<span class="st">'ghm_ghm_regroupement'</span>)</a>
 <a class="sourceLine" id="cb3-4" data-line-number="4">dplyr<span class="op">::</span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/reexports.html">glimpse</a></span>(ghm_rgp)</a>
-<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; Observations: 18,028</span></a>
-<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt; Variables: 13</span></a>
-<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="co">#&gt; $ ghm            &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041",…</span></a>
-<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="co">#&gt; $ libelle_ghm    &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 1…</span></a>
-<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="co">#&gt; $ da             &lt;chr&gt; "D05", "D05", "D05", "D05", "D05", "D05", "D05", …</span></a>
-<a class="sourceLine" id="cb3-10" data-line-number="10"><span class="co">#&gt; $ libelle_da     &lt;chr&gt; "Système nerveux (hors cathétérismes vasculaires …</span></a>
-<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="co">#&gt; $ gp_cas         &lt;chr&gt; "C02", "C02", "C02", "C02", "C02", "C02", "C02", …</span></a>
-<a class="sourceLine" id="cb3-12" data-line-number="12"><span class="co">#&gt; $ libelle_gp_cas &lt;chr&gt; "Chirurgie du rachis, Neuro-chirurgie", "Chirurgi…</span></a>
-<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="co">#&gt; $ ga             &lt;chr&gt; "G043", "G043", "G043", "G043", "G044", "G044", "…</span></a>
-<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="co">#&gt; $ libelle_ga     &lt;chr&gt; "Chirurgies SNC trauma", "Chirurgies SNC trauma",…</span></a>
-<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="co">#&gt; $ da_gp          &lt;chr&gt; "D05C02", "D05C02", "D05C02", "D05C02", "D05C02",…</span></a>
-<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="co">#&gt; $ da_gp_ga       &lt;chr&gt; "D05C02G043", "D05C02G043", "D05C02G043", "D05C02…</span></a>
-<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="co">#&gt; $ anseqta        &lt;chr&gt; "2012", "2012", "2012", "2012", "2012", "2012", "…</span></a>
-<a class="sourceLine" id="cb3-18" data-line-number="18"><span class="co">#&gt; $ aso            &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span></a>
-<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="co">#&gt; $ racine         &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, N…</span></a></code></pre></div>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="co">#&gt; Observations: 20,621</span></a>
+<a class="sourceLine" id="cb3-6" data-line-number="6"><span class="co">#&gt; Variables: 14</span></a>
+<a class="sourceLine" id="cb3-7" data-line-number="7"><span class="co">#&gt; $ ghm            &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041", "01C…</span></a>
+<a class="sourceLine" id="cb3-8" data-line-number="8"><span class="co">#&gt; $ libelle_ghm    &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 17 ans…</span></a>
+<a class="sourceLine" id="cb3-9" data-line-number="9"><span class="co">#&gt; $ da             &lt;chr&gt; "D05", "D05", "D05", "D05", "D05", "D05", "D05", "D05"…</span></a>
+<a class="sourceLine" id="cb3-10" data-line-number="10"><span class="co">#&gt; $ libelle_da     &lt;chr&gt; "Système nerveux (hors cathétérismes vasculaires diagn…</span></a>
+<a class="sourceLine" id="cb3-11" data-line-number="11"><span class="co">#&gt; $ gp_cas         &lt;chr&gt; "C02", "C02", "C02", "C02", "C02", "C02", "C02", "C02"…</span></a>
+<a class="sourceLine" id="cb3-12" data-line-number="12"><span class="co">#&gt; $ libelle_gp_cas &lt;chr&gt; "Chirurgie du rachis, Neuro-chirurgie", "Chirurgie du …</span></a>
+<a class="sourceLine" id="cb3-13" data-line-number="13"><span class="co">#&gt; $ ga             &lt;chr&gt; "G043", "G043", "G043", "G043", "G044", "G044", "G044"…</span></a>
+<a class="sourceLine" id="cb3-14" data-line-number="14"><span class="co">#&gt; $ libelle_ga     &lt;chr&gt; "Chirurgies SNC trauma", "Chirurgies SNC trauma", "Chi…</span></a>
+<a class="sourceLine" id="cb3-15" data-line-number="15"><span class="co">#&gt; $ da_gp          &lt;chr&gt; "D05C02", "D05C02", "D05C02", "D05C02", "D05C02", "D05…</span></a>
+<a class="sourceLine" id="cb3-16" data-line-number="16"><span class="co">#&gt; $ da_gp_ga       &lt;chr&gt; "D05C02G043", "D05C02G043", "D05C02G043", "D05C02G043"…</span></a>
+<a class="sourceLine" id="cb3-17" data-line-number="17"><span class="co">#&gt; $ anseqta        &lt;chr&gt; "2012", "2012", "2012", "2012", "2012", "2012", "2012"…</span></a>
+<a class="sourceLine" id="cb3-18" data-line-number="18"><span class="co">#&gt; $ time_i         &lt;chr&gt; "2012", "2012", "2012", "2012", "2012", "2012", "2012"…</span></a>
+<a class="sourceLine" id="cb3-19" data-line-number="19"><span class="co">#&gt; $ aso            &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA…</span></a>
+<a class="sourceLine" id="cb3-20" data-line-number="20"><span class="co">#&gt; $ racine         &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA…</span></a></code></pre></div>
 </div>
 <div id="ghs" class="section level2">
 <h2 class="hasAnchor">
@@ -161,18 +164,18 @@
 <a class="sourceLine" id="cb4-4" data-line-number="4">dplyr<span class="op">::</span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/reexports.html">glimpse</a></span>(ghs)</a>
 <a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co">#&gt; Observations: 26,124</span></a>
 <a class="sourceLine" id="cb4-6" data-line-number="6"><span class="co">#&gt; Variables: 12</span></a>
-<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co">#&gt; $ ghs         &lt;chr&gt; "0022", "0023", "0024", "0025", "0026", "0027", "002…</span></a>
-<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co">#&gt; $ ghm         &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041", "0…</span></a>
-<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co">#&gt; $ libelle_ghm &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 17 a…</span></a>
-<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co">#&gt; $ borne_basse &lt;int&gt; 4, 7, 7, 12, 3, 7, 7, 12, 3, 5, 6, 14, 3, 4, 5, 7, 0…</span></a>
-<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="co">#&gt; $ borne_haute &lt;int&gt; 19, 38, 79, 124, 19, 39, 66, 105, 16, 30, 65, 84, 13…</span></a>
-<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="co">#&gt; $ tarif_base  &lt;dbl&gt; 3753.62, 8426.88, 12805.25, 15954.70, 5755.54, 10802…</span></a>
-<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co">#&gt; $ forfait_exb &lt;dbl&gt; 0.00, 4673.26, 4378.37, 3149.44, 0.00, 5047.15, 3778…</span></a>
-<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co">#&gt; $ tarif_exb   &lt;dbl&gt; 324.05, 0.00, 0.00, 0.00, 865.97, 0.00, 0.00, 0.00, …</span></a>
-<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="co">#&gt; $ tarif_exh   &lt;dbl&gt; 116.20, 87.53, 69.99, 241.16, 143.18, 110.10, 89.45,…</span></a>
-<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="co">#&gt; $ date_effet  &lt;chr&gt; "01/03/2010", "01/03/2010", "01/03/2010", "01/03/201…</span></a>
-<a class="sourceLine" id="cb4-17" data-line-number="17"><span class="co">#&gt; $ anseqta     &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "201…</span></a>
-<a class="sourceLine" id="cb4-18" data-line-number="18"><span class="co">#&gt; $ time_i      &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "201…</span></a></code></pre></div>
+<a class="sourceLine" id="cb4-7" data-line-number="7"><span class="co">#&gt; $ ghs         &lt;chr&gt; "0022", "0023", "0024", "0025", "0026", "0027", "0028", "…</span></a>
+<a class="sourceLine" id="cb4-8" data-line-number="8"><span class="co">#&gt; $ ghm         &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041", "01C042…</span></a>
+<a class="sourceLine" id="cb4-9" data-line-number="9"><span class="co">#&gt; $ libelle_ghm &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 17 ans, n…</span></a>
+<a class="sourceLine" id="cb4-10" data-line-number="10"><span class="co">#&gt; $ borne_basse &lt;int&gt; 4, 7, 7, 12, 3, 7, 7, 12, 3, 5, 6, 14, 3, 4, 5, 7, 0, 5, …</span></a>
+<a class="sourceLine" id="cb4-11" data-line-number="11"><span class="co">#&gt; $ borne_haute &lt;int&gt; 19, 38, 79, 124, 19, 39, 66, 105, 16, 30, 65, 84, 13, 22,…</span></a>
+<a class="sourceLine" id="cb4-12" data-line-number="12"><span class="co">#&gt; $ tarif_base  &lt;dbl&gt; 3753.62, 8426.88, 12805.25, 15954.70, 5755.54, 10802.69, …</span></a>
+<a class="sourceLine" id="cb4-13" data-line-number="13"><span class="co">#&gt; $ forfait_exb &lt;dbl&gt; 0.00, 4673.26, 4378.37, 3149.44, 0.00, 5047.15, 3778.00, …</span></a>
+<a class="sourceLine" id="cb4-14" data-line-number="14"><span class="co">#&gt; $ tarif_exb   &lt;dbl&gt; 324.05, 0.00, 0.00, 0.00, 865.97, 0.00, 0.00, 0.00, 1142.…</span></a>
+<a class="sourceLine" id="cb4-15" data-line-number="15"><span class="co">#&gt; $ tarif_exh   &lt;dbl&gt; 116.20, 87.53, 69.99, 241.16, 143.18, 110.10, 89.45, 322.…</span></a>
+<a class="sourceLine" id="cb4-16" data-line-number="16"><span class="co">#&gt; $ date_effet  &lt;chr&gt; "01/03/2010", "01/03/2010", "01/03/2010", "01/03/2010", "…</span></a>
+<a class="sourceLine" id="cb4-17" data-line-number="17"><span class="co">#&gt; $ anseqta     &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "2010", "…</span></a>
+<a class="sourceLine" id="cb4-18" data-line-number="18"><span class="co">#&gt; $ time_i      &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "2010", "…</span></a></code></pre></div>
 </div>
 </div>
 <div id="dictionnaire-des-tables" class="section level1">
@@ -186,8 +189,8 @@
 <a class="sourceLine" id="cb5-5" data-line-number="5"><span class="st">                </span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span>(nom_table, commentaire_table, anseqta, version) <span class="op">%&gt;%</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb5-6" data-line-number="6"><span class="st">                </span>dplyr<span class="op">::</span><span class="kw"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span>(nom_table), </a>
 <a class="sourceLine" id="cb5-7" data-line-number="7">              <span class="dt">escape =</span> F, <span class="dt">rownames =</span> F, <span class="dt">options =</span> <span class="kw"><a href="https://rdrr.io/r/base/list.html">list</a></span>(<span class="dt">pageLength =</span> <span class="dv">50</span>))</a></code></pre></div>
-<div id="htmlwidget-714a9d233dae0401e82b" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-714a9d233dae0401e82b">{"x":{"filter":"none","data":[["ccam_actes","ccam_actes_avec_descri","ccam_descri","ccam_hierarchie_actes","ccam_icr","ccam_libelle_modificateur","ccam_libelle_regroupement","ccam_libelle_specialite_medicale","ccam_libelles_grille_tarifs","ccam_notes","ccam_regroupement","ccam_tarifs","ccam_tarifs_detailles","cim","codes_geo_com_ts_corresp","csarr_acte_ref","csarr_code","csarr_code_extdoc","csarr_geste_compl","csarr_hier","csarr_modulateur","csarr_note_csarr_code","csarr_note_csarr_hier","csarr_ponderation","dictionnaire_tables","ghm_dms_nationales","ghm_ghm_regroupement","ghm_rghm_regroupement","lib_mco_um","lib_ssr_autoum","lib_ssr_cm","lib_ssr_gme","lib_ssr_gn","lib_ssr_intercd","lib_ssr_rgme","lpp_fiche","tarifs_had_ght","tarifs_mco_ghs","tarifs_mco_ghs_9999","tarifs_mco_supplements"],["Table des actes CCAM","Table des actes CCAM contenant l'information sur 7 caractères et l'information descriptive sur 2 caractères séparés, un acte présentant une extension descriptive est présent autant de fois qu'il a d'extension descriptive différentes + une fois sur 7 caractères sans extension : un flag indique si le code peut présenter une extension descriptive","Table contenant les actes avec extension descriptive et leurs extensions descriptives","Table contenant la CCAM niveau acte et la hiérarchie des codes CCAM (chapitre / sous-chapitre / …)","Table contenant les indices de couts relatifs","Table de libellé des modificateurs CCAM","Table de libellé des regroupements CCAM","Table de libellé des codes spécialités médicales","Libellé des différents secteurs / grille des tarifs CCAM","Table contenant les notes de la CCAM","Table contenant les codes regroupements","Tarifs des actes CCAM pour le secteur 1 (Secteur 1 / adhérent / SF), avec historique","Tarifs des actes CCAM pour chacune des grilles tarifaires, avec historique","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","correspondance codes INSEE - codes PMSI","Codes CSARR, libellé de l’acte et l’information « individuel dédié »,« individuel non dédié », « collectif », « pluriprofessionnel », « séance »","Les codes et libellés des actes CSARR","CSARR : codes extension documentaire","Référentiel des gestes complémentaires liés aux codes actes","Subdivision hiérarchique du CSARR","Référentiel des modulateurs liés aux codes actes","Notes liées aux actes CSARR","Notes concernant la subdivision hiérarchique du CSARR","Pondérations","Dictionnaire des tables","DMS nationales depuis 2007","Table des regroupements de GHM ATIH","Table des regroupements de racines de GHM ATIH","Table de libellé des types d'autorisations T2A","Autorisations SSR","Catégories majeures SSR","Groupe médico-économiques","Groupes nosologiques","Intervenants SSR","Racine des groupes médico-économiques","Table contenant les codes LPP, libellés, arborescence de la LPP et les numéros de référence médicale","Tarifs GHT pour valoriser les RAPSS de l'HAD public","Table des tarifs MCO GHS ATIH public","Table contenant les GHM et libellés des GHS 9999, donc GHM sans tarifs","Table des tarifs MCO suppléments T2A public"],["non","non","non","non","non","non","non","non","non","non","non","non","non","oui","non","oui","oui","oui","oui","oui","oui","oui","oui","oui","non","oui","oui","oui","non","oui","oui","oui","oui","oui","oui","non","non","oui","non","oui"],["v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"v522",null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>nom_table<\/th>\n      <th>commentaire_table<\/th>\n      <th>anseqta<\/th>\n      <th>version<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":50,"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-f1cae2be6d9a0d399b33" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f1cae2be6d9a0d399b33">{"x":{"filter":"none","data":[["ccam_actes","ccam_actes_avec_descri","ccam_descri","ccam_hierarchie_actes","ccam_icr","ccam_libelle_modificateur","ccam_libelle_regroupement","ccam_libelle_specialite_medicale","ccam_libelles_grille_tarifs","ccam_notes","ccam_regroupement","ccam_tarifs","ccam_tarifs_detailles","cim","codes_geo_com_ts_corresp","csarr_acte_ref","csarr_code","csarr_code_extdoc","csarr_geste_compl","csarr_hier","csarr_modulateur","csarr_note_csarr_code","csarr_note_csarr_hier","csarr_ponderation","dictionnaire_tables","ghm_dms_nationales","ghm_ghm_regroupement","ghm_rghm_regroupement","lib_mco_um","lib_ssr_autoum","lib_ssr_cm","lib_ssr_gme","lib_ssr_gn","lib_ssr_intercd","lib_ssr_rgme","lpp_fiche","mco_dmiref_atih_historique_liste_lpp","mco_medref_atih_historique_liste_ucd","mco_medref_atih_indications","mco_medref_atih_indications_atu","tarifs_had_ght","tarifs_mco_ghs","tarifs_mco_ghs_9999","tarifs_mco_supplements"],["Table des actes CCAM","Table des actes CCAM contenant l'information sur 7 caractères et l'information descriptive sur 2 caractères séparés, un acte présentant une extension descriptive est présent autant de fois qu'il a d'extension descriptive différentes + une fois sur 7 caractères sans extension : un flag indique si le code peut présenter une extension descriptive","Table contenant les actes avec extension descriptive et leurs extensions descriptives","Table contenant la CCAM niveau acte et la hiérarchie des codes CCAM (chapitre / sous-chapitre / …)","Table contenant les indices de couts relatifs","Table de libellé des modificateurs CCAM","Table de libellé des regroupements CCAM","Table de libellé des codes spécialités médicales","Libellé des différents secteurs / grille des tarifs CCAM","Table contenant les notes de la CCAM","Table contenant les codes regroupements","Tarifs des actes CCAM pour le secteur 1 (Secteur 1 / adhérent / SF), avec historique","Tarifs des actes CCAM pour chacune des grilles tarifaires, avec historique","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","correspondance codes INSEE - codes PMSI","Codes CSARR, libellé de l’acte et l’information « individuel dédié »,« individuel non dédié », « collectif », « pluriprofessionnel », « séance »","Les codes et libellés des actes CSARR","CSARR : codes extension documentaire","Référentiel des gestes complémentaires liés aux codes actes","Subdivision hiérarchique du CSARR","Référentiel des modulateurs liés aux codes actes","Notes liées aux actes CSARR","Notes concernant la subdivision hiérarchique du CSARR","Pondérations","Dictionnaire des tables","DMS nationales depuis 2007","Table des regroupements de GHM ATIH","Table des regroupements de racines de GHM ATIH","Table de libellé des types d'autorisations T2A","Autorisations SSR","Catégories majeures SSR","Groupe médico-économiques","Groupes nosologiques","Intervenants SSR","Racine des groupes médico-économiques","Table contenant les codes LPP, libellés, arborescence de la LPP et les numéros de référence médicale","Référentiel des DMI de l'ATIH","Référentiel historisé des med de l'ATIH","Référentiel des indications pour les MO, ATIH","Référentiel des ATU de l'ATIH","Tarifs GHT pour valoriser les RAPSS de l'HAD public","Table des tarifs MCO GHS ATIH public","Table contenant les GHM et libellés des GHS 9999, donc GHM sans tarifs","Table des tarifs MCO suppléments T2A public"],["non","non","non","non","non","non","non","non","non","non","non","non","non","oui","non","oui","oui","oui","oui","oui","oui","oui","oui","oui","non","oui","oui","oui","non","oui","oui","oui","oui","oui","oui","non","non","non","oui","oui","non","oui","non","oui"],["v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60","v60",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"v522",null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>nom_table<\/th>\n      <th>commentaire_table<\/th>\n      <th>anseqta<\/th>\n      <th>version<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":50,"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="visualiser-les-tables-avec-shiny" class="section level1">
 <h1 class="hasAnchor">
