@@ -24,6 +24,7 @@ shiny::shinyServer(function(input, output) {
     
     
     content = function(file) {
+      if (input$filetype != 'xlsx'){
       sep <- switch(input$filetype, "csv" = ",", "tsv" = "\t")
       
       
@@ -31,6 +32,13 @@ shiny::shinyServer(function(input, output) {
       #             na = "", quote = TRUE,
       #             row.names = FALSE)
       readr::write_delim(nomensland::get_table(input$tab), file, delim = sep, na = "")
+      }
+      if (input$filetype == 'xlsx'){
+        wb <- openxlsx::createWorkbook()
+        openxlsx::addWorksheet(wb, input$tab)
+        openxlsx::writeData(wb, input$tab, nomensland::get_table(input$tab))
+        openxlsx::saveWorkbook(wb, file, overwrite = TRUE)
+      }
     }
   )
 })

@@ -11,6 +11,7 @@ shiny::shinyUI(shiny::fluidPage(
     sidebarPanel(width = 3,
                  selectInput("tab", "Choisir une table :",
                              list(`CCAM` = liste_table$nom_table %>% .[grepl('ccam_', .)],
+                                  `NGAP` = 'ngap_norme_b2_code_prestation',
                                   `CIM` =  liste_table$nom_table %>% .[grepl('cim', .)],
                                   `CSARR` = liste_table$nom_table %>% .[grepl('csarr_', .)],
                                   `MO, ATU et DMI` = liste_table$nom_table %>% .[grepl('mco_medref_|mco_dmiref_', .)],
@@ -22,7 +23,7 @@ shiny::shinyUI(shiny::fluidPage(
                  ),
                  
                  radioButtons("filetype", "Choisir le type :",
-                              choices = c("csv", "tsv")),
+                              choices = c("csv", "tsv", "xlsx")),
                  downloadButton('downloadData', 'Télécharger')),
     
     mainPanel(width = 9,
