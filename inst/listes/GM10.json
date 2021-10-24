@@ -2,9 +2,10 @@
   "nom": ["Chirurgie du cristallin"],
   "abrege": ["GM10"],
   "thematique": ["Chir ambu : 55 GM"],
-  "actes": ["BFEA001", "BFGA001", "BFGA002", "BFGA003", "BFGA004", "BFGA005", "BFGA006", "BFGA007", "BFGA008", "BFGA009", "BFGA010", "BFKA001", "BFLA001", "BFLA002", "BFLA003", "BFLA004"],
+  "actes": ["BFEA001", "BFGA001", "BFGA002", "BFGA003", "BFGA004", "BFGA005", "BFGA006", "BFGA007", "BFGA008", "BFGA009", "BFGA010", "BFKA001", "BFLA001", "BFLA002", "BFLA003", "BFLA004", "BFGA427"],
   "date_saisie": ["2017-06-18T22:00:00Z"],
-  "commentaire": ["Si ce geste marqueur est présent, ne pas compter les GM 45, 46, 54, 55"],
+  "commentaire": ["Si ce geste marqueur est présent, ne pas compter les GM 45, 46, 54, 55\r\nAjout du BFGA427 cataracte"],
+  "date_mise_a_jour": ["2021-10-24"],
   "auteur": ["ARS"],
   "timestamp": [1497823200]
 }
