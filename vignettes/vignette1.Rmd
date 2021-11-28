@@ -36,8 +36,8 @@ dplyr::glimpse(ccam)
 ```{r}
 library(nomensland)
 
-cim17_18 <- get_table('cim', 2017:2018)
-dplyr::glimpse(cim17_18)
+cim_21 <- get_table('cim', '2021')
+dplyr::glimpse(cim_21)
 ```
 
 ## GHM
