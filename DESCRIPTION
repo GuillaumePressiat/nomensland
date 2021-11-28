@@ -4,8 +4,8 @@ Title: Package contenant des nomenclatures et classifications pour le PMSI
 Version: 0.0.3
 Date: 2021-11-28
 Author: Guillaume Pressiat
-Authors@R: c(person('Guillaume Pressiat', role = c("aut", "cre")))
-Maintainer: Guillaume Pressiat <guillaume.pressiat@gmail.com>
+Authors@R: c(person('Guillaume Pressiat', role = c("aut", "cre"), email = "guillaume.pressiat@chu-brest.fr")))
+Maintainer: Guillaume Pressiat <guillaume.pressiat@chu-brest.fr>
 Description: Package contenant des nomenclatures et classifications pour le PMSI
 License: GPL-2 | file LICENSE
 LazyData: TRUE
