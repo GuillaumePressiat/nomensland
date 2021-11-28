@@ -1,7 +1,6 @@
 
 #' ~ api : recuperer une table (referentiel)
 #'
-#'
 #' @examples
 #' \dontrun{
 #' get_table('dictionnaire_tables')

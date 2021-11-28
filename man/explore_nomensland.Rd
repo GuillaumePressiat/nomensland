@@ -4,8 +4,9 @@
 \alias{explore_nomensland}
 \title{Explorer les tables avec shiny}
 \usage{
-explore_nomensland(launch.browser = getOption("shiny.launch.browser",
-  interactive()))
+explore_nomensland(
+  launch.browser = getOption("shiny.launch.browser", interactive())
+)
 }
 \description{
 Explorer les tables avec shiny

@@ -1,3 +1,9 @@
+<!-- badges: start -->
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![https://guillaumepressiat.r-universe.dev/badges/nomensland](https://guillaumepressiat.r-universe.dev/badges/nomensland)](https://guillaumepressiat.r-universe.dev/ui#builds)
+<!-- badges: end -->
+
+
 # nomensland
 
 Package contenant des nomenclatures et classifications pour le PMSI
@@ -9,6 +15,8 @@ Un exemple d'utilisation en python est également disponible [ici](https://githu
 
 
 ## Installation du package
+
+
 
 ### Depuis r-universe (CRAN-like pre-build)
 
