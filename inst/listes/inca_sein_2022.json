@@ -1,0 +1,12 @@
+{
+  "nom": ["Seuils Chirurgie du sein INCA 2022"],
+  "abrege": ["inca_sein_2022"],
+  "thematique": ["Cancérologie INCA 2022"],
+  "agemin": [18],
+  "diags": ["C500, C501, C502, C503, C504, C505, C506, C508, C509, C773, D050, D051, D057, D059, D486"],
+  "positions_diags": ["dp"],
+  "actes": ["FCFA002, FCFA004, FCFA005, FCFA006, FCFA008, FCFA009, FCFA010, FCFA011, FCFA013, FCFA016, FCFA019, FCFA020, FCFA022, FCFA025, FCFA027, FCFA029, FCFC001, FCFC003, FCFC004, FCFC005, QEFA001, QEFA003, QEFA004, QEFA005, QEFA007, QEFA008, QEFA010, QEFA012, QEFA013, QEFA015, QEFA016, QEFA017, QEFA018, QEFA019, QEFA020"],
+  "date_saisie": ["2022-08-23T16:00:00Z"],
+  "auteur": ["INCA"],
+  "timestamp": [1661263200]
+}
