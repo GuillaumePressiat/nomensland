@@ -1,0 +1,12 @@
+{
+  "nom": ["Seuils Chirurgie Ovaire INCA 2022"],
+  "abrege": ["inca_ovaire_2022"],
+  "thematique": ["Cancérologie INCA 2022"],
+  "agemin": [18],
+  "diags": ["C56,C570,C573,C574,C796,D391"],
+  "positions_diags": ["dp"],
+  "actes": ["HPFA004 | (HPFC002 & (FCFC003,FCFC004,FCFC005,FFFC001,FFFC420,HFFC001,FFC002,HFFC012,HFFC017,HGFC014,HGFC016,HGFC021,HHFA002,HHFA004, HHFA005,HHFA008,HHFA010,HHFA016,HHFA023,HHFC040,HHFC296,HJFA004,HJFA017,HJFC031,LFC002,HLFC003,HLFC004,HLFC027,HLFC032,HLFC037, HLFC801,HPFC007,JJFC004,JJFC008,JJFC009,JJFC010,JKFA006,JKFA018,JKFA020,JKFC003,JKFC005)"],
+  "commentaire": ["dp dans liste ou (carcinose peritonéale et das tumeur de l’ovaire)"],
+  "auteur": ["INCA"],
+  "timestamp": [1661263200]
+}

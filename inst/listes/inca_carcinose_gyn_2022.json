@@ -1,0 +1,11 @@
+{
+  "nom": ["Carcinose Péritonéale  Gynécologique INCA 2022"],
+  "abrege": ["inca_carcinose_gyn_2022"],
+  "thematique": ["Cancérologie INCA 2022"],
+  "agemin": [18],
+  "autres": ["dp == 'C786' "],
+  "diags_exclus": ["C510,C511,C512,C518,C519,C52,C530,C531  C510,C511,C512,C518,C519,C52,C530,C531,C538,C539,C540,C541,C542,C543,C548,C549,C55,C56,C570,C571,C572,C573,C574,C577,C578,C58,C796,D06,D060,D061,D067,D069,D070,D071,D072,D073,D390,D391,D392,D397"],
+  "commentaire": ["ovaire avancé si das%in % c('C56','C570','C573','C574','C796','D391'), sinon cancer gynecologique « hors cancer avancé de l’ovaire »"],
+  "auteur": ["INCA"],
+  "timestamp": [1661263200]
+}

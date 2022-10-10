@@ -1,0 +1,11 @@
+{
+  "nom": ["Seuils Chirurgie Autres Cancer Gynecologique"],
+  "abrege": ["inca_gyneco_2022"],
+  "thematique": ["Cancérologie INCA 2022"],
+  "agemin": [18],
+  "diags": ["C510,C511,C512,C518,C519,C52,C530,C531,C538,C539,C540,C541,C542,C543,C548,C549,C55,C571,C572,C577,C578,C58,D06,D060,D061,D067,D069,D070,D071,D072,D073,D390,D392,D397"],
+  "positions_diags": ["dp"],
+  "commentaire": ["dp dans liste ou (carninose peritoneale et das tumeur de l’ovaire et das <> tumeur de l’ovaire)"],
+  "auteur": ["INCA"],
+  "timestamp": [1661263200]
+}

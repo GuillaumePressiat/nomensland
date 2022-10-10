@@ -1,0 +1,13 @@
+{
+  "nom": ["Seuils Chirurgie Rectum INCA 2022"],
+  "abrege": ["inca_rectum_2022"],
+  "thematique": ["Cancérologie INCA 2022"],
+  "agemin": [18],
+  "autres": ["inca_digestif ≥ 30 "],
+  "diags": ["C150,C151,C152,C153,C154,C155,C158,C159,C160,C161,C162,C163,C164,C165,C166,C168,C169,C169+0,C169+8,C170,C171,C172,C173,C178,C179,C180,C181,C182,C183,C184,C185,C186,C187,C188,C189,C189+0,C189+8,C19,C20,C210,C211,C212,C218,C220,C221,C222,C223,C224,C227,C229,C23,C240,C241,C248,C249,C250,C251,C252,C253,C254,C254+0,C254+8,C257,C258,C259,C259+0,C259+8,C261,C268,C451,C4671,C481,C482,C488,C784,C785,C787,C788,D001,D002,D010,D011,D012,D013,D014,D015,D017,D371,D372,D373,D374,D375,D376,D377,D4830,D484"],
+  "positions_diags": ["dp"],
+  "actes": ["HJFA003,HJFA005,HJFA007,HJFA012,HJFA018,HJFA019,HJFC023"],
+  "commentaire": ["dp dans liste ou carcinose peritoneale non gynecologique ou (tous diag dans tumeur du rectum et acte dans exerese abdo-pelvien) cf. methodo complète"],
+  "auteur": ["INCA"],
+  "timestamp": [1661263200]
+}
