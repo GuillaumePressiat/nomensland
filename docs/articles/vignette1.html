@@ -19,6 +19,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -31,23 +33,17 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">nomensland</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.3</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="../index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
-<li>
   <a href="../reference/index.html">Reference</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Articles
      
     <span class="caret"></span>
@@ -64,7 +60,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/GuillaumePressiat/nomensland/">
+  <a href="https://github.com/GuillaumePressiat/nomensland/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -79,139 +75,138 @@
 
       
 
-      </header><script src="vignette1_files/header-attrs-2.11/header-attrs.js"></script><script src="vignette1_files/htmlwidgets-1.5.3/htmlwidgets.js"></script><script src="vignette1_files/jquery-1.12.4/jquery.min.js"></script><link href="vignette1_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="vignette1_files/datatables-binding-0.13/datatables.js"></script><link href="vignette1_files/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="vignette1_files/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="vignette1_files/dt-core-1.10.20/js/jquery.dataTables.min.js"></script><link href="vignette1_files/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet">
-<script src="vignette1_files/crosstalk-1.1.0.1/js/crosstalk.min.js"></script><div class="row">
+      </header><script src="vignette1_files/htmlwidgets-1.6.0/htmlwidgets.js"></script><link href="vignette1_files/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="vignette1_files/datatables-binding-0.26/datatables.js"></script><link href="vignette1_files/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="vignette1_files/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="vignette1_files/dt-core-1.12.1/js/jquery.dataTables.min.js"></script><link href="vignette1_files/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="vignette1_files/crosstalk-1.2.0/js/crosstalk.min.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>Accéder à des référentiels</h1>
-                        <h4 class="author">G. Pressiat</h4>
+                        <h4 data-toc-skip class="author">G.
+Pressiat</h4>
             
-            <h4 class="date">2021-11-28</h4>
+            <h4 data-toc-skip class="date">2023-04-24</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/GuillaumePressiat/nomensland/blob/master/vignettes/vignette1.Rmd"><code>vignettes/vignette1.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/GuillaumePressiat/nomensland/blob/HEAD/vignettes/vignette1.Rmd" class="external-link"><code>vignettes/vignette1.Rmd</code></a></small>
       <div class="hidden name"><code>vignette1.Rmd</code></div>
 
     </div>
 
     
     
-<div id="exemples-daccès-à-une-table" class="section level1">
-<h1 class="hasAnchor">
-<a href="#exemples-dacc%C3%A8s-%C3%A0-une-table" class="anchor"></a>Exemples d’accès à une table</h1>
-<div id="ccam" class="section level2">
-<h2 class="hasAnchor">
-<a href="#ccam" class="anchor"></a>CCAM</h2>
+<div class="section level2">
+<h2 id="exemples-daccès-à-une-table">Exemples d’accès à une table<a class="anchor" aria-label="anchor" href="#exemples-dacc%C3%A8s-%C3%A0-une-table"></a>
+</h2>
+<div class="section level3">
+<h3 id="ccam">CCAM<a class="anchor" aria-label="anchor" href="#ccam"></a>
+</h3>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span>, warn.conflicts <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span>
-<span class="co">#&gt; Warning: le package 'dplyr' a été compilé avec la version R 4.0.2</span>
-
-
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-<span class="co">#&gt; Warning: le package 'nomensland' a été compilé avec la version R 4.0.5</span>
-
-<span class="va">ccam</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'ccam_actes'</span><span class="op">)</span>
-<span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">ccam</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 8,504</span>
-<span class="co">#&gt; Columns: 7</span>
-<span class="co">#&gt; $ code               &lt;chr&gt; "AAFA001", "AAFA002", "AAFA003", "AAFA004", "AAFA00…</span>
-<span class="co">#&gt; $ libelle_court      &lt;chr&gt; "exérèse T. intraparench cervelet craniot.", "exérè…</span>
-<span class="co">#&gt; $ type_acte          &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "…</span>
-<span class="co">#&gt; $ compatibilite_sexe &lt;chr&gt; "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "…</span>
-<span class="co">#&gt; $ date_debut         &lt;chr&gt; "2005-03-01", "2005-03-01", "2005-03-01", "2005-03-…</span>
-<span class="co">#&gt; $ libelle_long       &lt;chr&gt; "Exérèse de tumeur intraparenchymateuse du cervelet…</span>
-<span class="co">#&gt; $ date_fin           &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org" class="external-link">dplyr</a></span>, warn.conflicts <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ccam</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'ccam_actes'</span><span class="op">)</span></span>
+<span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">ccam</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 8,542</span></span>
+<span><span class="co">#&gt; Columns: 7</span></span>
+<span><span class="co">#&gt; $ code               <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "AAFA001", "AAFA002", "AAFA003", "AAFA004", "AAFA00…</span></span>
+<span><span class="co">#&gt; $ libelle_court      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "exérèse T. intraparench cervelet craniot.", "exérè…</span></span>
+<span><span class="co">#&gt; $ type_acte          <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "…</span></span>
+<span><span class="co">#&gt; $ compatibilite_sexe <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "…</span></span>
+<span><span class="co">#&gt; $ date_debut         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2005-03-01", "2005-03-01", "2005-03-01", "2005-03-…</span></span>
+<span><span class="co">#&gt; $ libelle_long       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Exérèse de tumeur intraparenchymateuse du cervelet…</span></span>
+<span><span class="co">#&gt; $ date_fin           <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></span></code></pre></div>
 </div>
-<div id="cim-10" class="section level2">
-<h2 class="hasAnchor">
-<a href="#cim-10" class="anchor"></a>CIM-10</h2>
+<div class="section level3">
+<h3 id="cim-10">CIM-10<a class="anchor" aria-label="anchor" href="#cim-10"></a>
+</h3>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-
-<span class="va">cim_21</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'cim'</span>, <span class="st">'2021'</span><span class="op">)</span>
-<span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">cim_21</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 42,880</span>
-<span class="co">#&gt; Columns: 7</span>
-<span class="co">#&gt; $ code      &lt;chr&gt; "A00", "A000", "A001", "A009", "A01", "A010", "A011", "A012"…</span>
-<span class="co">#&gt; $ tr        &lt;chr&gt; "3", "0", "0", "0", "3", "0", "0", "0", "0", "0", "3", "0", …</span>
-<span class="co">#&gt; $ lib_court &lt;chr&gt; "CHOLERA", "CHOLERA A VIBRIO CHOLERAE 01, BIOVAR CHOLERAE", …</span>
-<span class="co">#&gt; $ lib_long  &lt;chr&gt; "Choléra", "Choléra à Vibrio cholerae 01, biovar cholerae", …</span>
-<span class="co">#&gt; $ anseqta   &lt;chr&gt; "2021", "2021", "2021", "2021", "2021", "2021", "2021", "202…</span>
-<span class="co">#&gt; $ tssr      &lt;chr&gt; "NNNN", "NOOO", "NOOO", "NOOO", "NNNN", "NOOO", "NOOO", "NOO…</span>
-<span class="co">#&gt; $ tpsy      &lt;int&gt; 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, …</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">cim_21</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'cim'</span>, <span class="st">'2021'</span><span class="op">)</span></span>
+<span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">cim_21</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 42,880</span></span>
+<span><span class="co">#&gt; Columns: 7</span></span>
+<span><span class="co">#&gt; $ code      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "A00", "A000", "A001", "A009", "A01", "A010", "A011", "A012"…</span></span>
+<span><span class="co">#&gt; $ tr        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "3", "0", "0", "0", "3", "0", "0", "0", "0", "0", "3", "0", …</span></span>
+<span><span class="co">#&gt; $ lib_court <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "CHOLERA", "CHOLERA A VIBRIO CHOLERAE 01, BIOVAR CHOLERAE", …</span></span>
+<span><span class="co">#&gt; $ lib_long  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Choléra", "Choléra à Vibrio cholerae 01, biovar cholerae", …</span></span>
+<span><span class="co">#&gt; $ anseqta   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2021", "2021", "2021", "2021", "2021", "2021", "2021", "202…</span></span>
+<span><span class="co">#&gt; $ tssr      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "NNNN", "NOOO", "NOOO", "NOOO", "NNNN", "NOOO", "NOOO", "NOO…</span></span>
+<span><span class="co">#&gt; $ tpsy      <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, …</span></span></code></pre></div>
 </div>
-<div id="ghm" class="section level2">
-<h2 class="hasAnchor">
-<a href="#ghm" class="anchor"></a>GHM</h2>
+<div class="section level3">
+<h3 id="ghm">GHM<a class="anchor" aria-label="anchor" href="#ghm"></a>
+</h3>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-
-<span class="va">ghm_rgp</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'ghm_ghm_regroupement'</span><span class="op">)</span>
-<span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">ghm_rgp</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 25,807</span>
-<span class="co">#&gt; Columns: 14</span>
-<span class="co">#&gt; $ ghm            &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041", "01C0…</span>
-<span class="co">#&gt; $ libelle_ghm    &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 17 ans,…</span>
-<span class="co">#&gt; $ da             &lt;chr&gt; "D05", "D05", "D05", "D05", "D05", "D05", "D05", "D05",…</span>
-<span class="co">#&gt; $ libelle_da     &lt;chr&gt; "Système nerveux (hors cathétérismes vasculaires diagno…</span>
-<span class="co">#&gt; $ gp_cas         &lt;chr&gt; "C02", "C02", "C02", "C02", "C02", "C02", "C02", "C02",…</span>
-<span class="co">#&gt; $ libelle_gp_cas &lt;chr&gt; "Chirurgie du rachis, Neuro-chirurgie", "Chirurgie du r…</span>
-<span class="co">#&gt; $ ga             &lt;chr&gt; "G043", "G043", "G043", "G043", "G044", "G044", "G044",…</span>
-<span class="co">#&gt; $ libelle_ga     &lt;chr&gt; "Chirurgies SNC trauma", "Chirurgies SNC trauma", "Chir…</span>
-<span class="co">#&gt; $ da_gp          &lt;chr&gt; "D05C02", "D05C02", "D05C02", "D05C02", "D05C02", "D05C…</span>
-<span class="co">#&gt; $ da_gp_ga       &lt;chr&gt; "D05C02G043", "D05C02G043", "D05C02G043", "D05C02G043",…</span>
-<span class="co">#&gt; $ anseqta        &lt;chr&gt; "2012", "2012", "2012", "2012", "2012", "2012", "2012",…</span>
-<span class="co">#&gt; $ time_i         &lt;chr&gt; "2012", "2012", "2012", "2012", "2012", "2012", "2012",…</span>
-<span class="co">#&gt; $ aso            &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span>
-<span class="co">#&gt; $ racine         &lt;chr&gt; NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ghm_rgp</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'ghm_ghm_regroupement'</span><span class="op">)</span></span>
+<span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">ghm_rgp</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 31,085</span></span>
+<span><span class="co">#&gt; Columns: 14</span></span>
+<span><span class="co">#&gt; $ ghm            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "01C031", "01C032", "01C033", "01C034", "01C041", "01C0…</span></span>
+<span><span class="co">#&gt; $ libelle_ghm    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Craniotomies pour traumatisme, âge supérieur à 17 ans,…</span></span>
+<span><span class="co">#&gt; $ da             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "D05", "D05", "D05", "D05", "D05", "D05", "D05", "D05",…</span></span>
+<span><span class="co">#&gt; $ libelle_da     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Système nerveux (hors cathétérismes vasculaires diagno…</span></span>
+<span><span class="co">#&gt; $ gp_cas         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "C02", "C02", "C02", "C02", "C02", "C02", "C02", "C02",…</span></span>
+<span><span class="co">#&gt; $ libelle_gp_cas <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Chirurgie du rachis, Neuro-chirurgie", "Chirurgie du r…</span></span>
+<span><span class="co">#&gt; $ ga             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "G043", "G043", "G043", "G043", "G044", "G044", "G044",…</span></span>
+<span><span class="co">#&gt; $ libelle_ga     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Chirurgies SNC trauma", "Chirurgies SNC trauma", "Chir…</span></span>
+<span><span class="co">#&gt; $ da_gp          <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "D05C02", "D05C02", "D05C02", "D05C02", "D05C02", "D05C…</span></span>
+<span><span class="co">#&gt; $ da_gp_ga       <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "D05C02G043", "D05C02G043", "D05C02G043", "D05C02G043",…</span></span>
+<span><span class="co">#&gt; $ anseqta        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2012", "2012", "2012", "2012", "2012", "2012", "2012",…</span></span>
+<span><span class="co">#&gt; $ time_i         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2012", "2012", "2012", "2012", "2012", "2012", "2012",…</span></span>
+<span><span class="co">#&gt; $ aso            <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></span>
+<span><span class="co">#&gt; $ racine         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</span></span></code></pre></div>
 </div>
-<div id="ghs" class="section level2">
-<h2 class="hasAnchor">
-<a href="#ghs" class="anchor"></a>GHS</h2>
+<div class="section level3">
+<h3 id="ghs">GHS<a class="anchor" aria-label="anchor" href="#ghs"></a>
+</h3>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-
-<span class="va">ghs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'tarifs_mco_ghs'</span><span class="op">)</span>
-<span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="va">ghs</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 34,686</span>
-<span class="co">#&gt; Columns: 12</span>
-<span class="co">#&gt; $ ghs         &lt;chr&gt; "0022", "0023", "0024", "0025", "0026", "0027", "0028", "0…</span>
-<span class="co">#&gt; $ ghm         &lt;chr&gt; "01C031", "01C032", "01C033", "01C034", "01C041", "01C042"…</span>
-<span class="co">#&gt; $ libelle_ghm &lt;chr&gt; "Craniotomies pour traumatisme, âge supérieur à 17 ans, ni…</span>
-<span class="co">#&gt; $ borne_basse &lt;int&gt; 4, 7, 7, 12, 3, 7, 7, 12, 3, 5, 6, 14, 3, 4, 5, 7, 0, 5, 4…</span>
-<span class="co">#&gt; $ borne_haute &lt;int&gt; 19, 38, 79, 124, 19, 39, 66, 105, 16, 30, 65, 84, 13, 22, …</span>
-<span class="co">#&gt; $ tarif_base  &lt;dbl&gt; 3753.62, 8426.88, 12805.25, 15954.70, 5755.54, 10802.69, 1…</span>
-<span class="co">#&gt; $ forfait_exb &lt;dbl&gt; 0.00, 4673.26, 4378.37, 3149.44, 0.00, 5047.15, 3778.00, 3…</span>
-<span class="co">#&gt; $ tarif_exb   &lt;dbl&gt; 324.05, 0.00, 0.00, 0.00, 865.97, 0.00, 0.00, 0.00, 1142.6…</span>
-<span class="co">#&gt; $ tarif_exh   &lt;dbl&gt; 116.20, 87.53, 69.99, 241.16, 143.18, 110.10, 89.45, 322.4…</span>
-<span class="co">#&gt; $ date_effet  &lt;chr&gt; "01/03/2010", "01/03/2010", "01/03/2010", "01/03/2010", "0…</span>
-<span class="co">#&gt; $ anseqta     &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "2010", "2…</span>
-<span class="co">#&gt; $ time_i      &lt;chr&gt; "2010", "2010", "2010", "2010", "2010", "2010", "2010", "2…</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ghs</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'tarifs_mco_ghs'</span><span class="op">)</span></span>
+<span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="va">ghs</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 44,055</span></span>
+<span><span class="co">#&gt; Columns: 12</span></span>
+<span><span class="co">#&gt; $ ghs         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "0022", "0023", "0024", "0025", "0026", "0027", "0028", "0…</span></span>
+<span><span class="co">#&gt; $ ghm         <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "01C031", "01C032", "01C033", "01C034", "01C041", "01C042"…</span></span>
+<span><span class="co">#&gt; $ libelle_ghm <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Craniotomies pour traumatisme, âge supérieur à 17 ans, ni…</span></span>
+<span><span class="co">#&gt; $ borne_basse <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 4, 7, 7, 12, 3, 7, 7, 12, 3, 5, 6, 14, 3, 4, 5, 7, 0, 5, 4…</span></span>
+<span><span class="co">#&gt; $ borne_haute <span style="color: #949494; font-style: italic;">&lt;int&gt;</span> 19, 38, 79, 124, 19, 39, 66, 105, 16, 30, 65, 84, 13, 22, …</span></span>
+<span><span class="co">#&gt; $ tarif_base  <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 3753.62, 8426.88, 12805.25, 15954.70, 5755.54, 10802.69, 1…</span></span>
+<span><span class="co">#&gt; $ forfait_exb <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 0.00, 4673.26, 4378.37, 3149.44, 0.00, 5047.15, 3778.00, 3…</span></span>
+<span><span class="co">#&gt; $ tarif_exb   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 324.05, 0.00, 0.00, 0.00, 865.97, 0.00, 0.00, 0.00, 1142.6…</span></span>
+<span><span class="co">#&gt; $ tarif_exh   <span style="color: #949494; font-style: italic;">&lt;dbl&gt;</span> 116.20, 87.53, 69.99, 241.16, 143.18, 110.10, 89.45, 322.4…</span></span>
+<span><span class="co">#&gt; $ date_effet  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "01/03/2010", "01/03/2010", "01/03/2010", "01/03/2010", "0…</span></span>
+<span><span class="co">#&gt; $ anseqta     <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2010", "2010", "2010", "2010", "2010", "2010", "2010", "2…</span></span>
+<span><span class="co">#&gt; $ time_i      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "2010", "2010", "2010", "2010", "2010", "2010", "2010", "2…</span></span></code></pre></div>
 </div>
 </div>
-<div id="dictionnaire-des-tables" class="section level1">
-<h1 class="hasAnchor">
-<a href="#dictionnaire-des-tables" class="anchor"></a>Dictionnaire des tables</h1>
+<div class="section level2">
+<h2 id="dictionnaire-des-tables">Dictionnaire des tables<a class="anchor" aria-label="anchor" href="#dictionnaire-des-tables"></a>
+</h2>
 <p>Un dictionnaire des tables et des variables est disponible.</p>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-<span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'dictionnaire_tables'</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="va">dico</span>
-
-<span class="fu">DT</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/DT/man/datatable.html">datatable</a></span><span class="op">(</span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html">distinct</a></span><span class="op">(</span><span class="va">dico</span>, <span class="va">nom_table</span>, <span class="va">commentaire_table</span>, <span class="va">anseqta</span>, <span class="va">version</span><span class="op">)</span> <span class="op">%&gt;%</span> 
-                <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">nom_table</span>, <span class="va">commentaire_table</span>, <span class="va">anseqta</span>, <span class="va">version</span><span class="op">)</span> <span class="op">%&gt;%</span> 
-                <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html">arrange</a></span><span class="op">(</span><span class="va">nom_table</span><span class="op">)</span>, 
-              escape <span class="op">=</span> <span class="cn">F</span>, rownames <span class="op">=</span> <span class="cn">F</span>, options <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span>pageLength <span class="op">=</span> <span class="fl">50</span><span class="op">)</span><span class="op">)</span></code></pre></div>
-<div id="htmlwidget-1a00f774dd24ddd0394c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1a00f774dd24ddd0394c">{"x":{"filter":"none","data":[["ccam_actes","ccam_actes_avec_descri","ccam_descri","ccam_hierarchie_actes","ccam_icr","ccam_libelle_modificateur","ccam_libelle_regroupement","ccam_libelle_specialite_medicale","ccam_libelles_grille_tarifs","ccam_notes","ccam_regroupement","ccam_tarifs","ccam_tarifs_detailles","cim","cim_hierarchie_code","codes_geo_com_ts_corresp","csarr_acte_ref","csarr_code","csarr_code_extdoc","csarr_geste_compl","csarr_hier","csarr_modulateur","csarr_note_csarr_code","csarr_note_csarr_hier","csarr_ponderation","dictionnaire_tables","ghm_dms_nationales","ghm_ghm_regroupement","ghm_rghm_regroupement","lib_mco_um","lib_ssr_autoum","lib_ssr_cm","lib_ssr_gme","lib_ssr_gn","lib_ssr_intercd","lib_ssr_rgme","lpp_fiche","mco_dmiref_atih_historique_liste_lpp","mco_medref_atih_historique_liste_ucd","mco_medref_atih_indications","mco_medref_atih_indications_atu","tarifs_had_ght","tarifs_mco_ghs","tarifs_mco_ghs_9999","tarifs_mco_supplements"],["Table des actes CCAM","Table des actes CCAM contenant l'information sur 7 caractères et l'information descriptive sur 2 caractères séparés, un acte présentant une extension descriptive est présent autant de fois qu'il a d'extension descriptive différentes + une fois sur 7 caractères sans extension : un flag indique si le code peut présenter une extension descriptive","Table contenant les actes avec extension descriptive et leurs extensions descriptives","Table contenant la CCAM niveau acte et la hiérarchie des codes CCAM (chapitre / sous-chapitre / …)","Table contenant les indices de couts relatifs","Table de libellé des modificateurs CCAM","Table de libellé des regroupements CCAM","Table de libellé des codes spécialités médicales","Libellé des différents secteurs / grille des tarifs CCAM","Table contenant les notes de la CCAM","Table contenant les codes regroupements","Tarifs des actes CCAM pour le secteur 1 (Secteur 1 / adhérent / SF), avec historique","Tarifs des actes CCAM pour chacune des grilles tarifaires, avec historique","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","correspondance codes INSEE - codes PMSI","Codes CSARR, libellé de l’acte et l’information « individuel dédié »,« individuel non dédié », « collectif », « pluriprofessionnel », « séance »","Les codes et libellés des actes CSARR","CSARR : codes extension documentaire","Référentiel des gestes complémentaires liés aux codes actes","Subdivision hiérarchique du CSARR","Référentiel des modulateurs liés aux codes actes","Notes liées aux actes CSARR","Notes concernant la subdivision hiérarchique du CSARR","Pondérations","Dictionnaire des tables","DMS nationales depuis 2007","Table des regroupements de GHM ATIH","Table des regroupements de racines de GHM ATIH","Table de libellé des types d'autorisations T2A","Autorisations SSR","Catégories majeures SSR","Groupe médico-économiques","Groupes nosologiques","Intervenants SSR","Racine des groupes médico-économiques","Table contenant les codes LPP, libellés, arborescence de la LPP et les numéros de référence médicale","Référentiel des DMI de l'ATIH","Référentiel historisé des med de l'ATIH","Référentiel des indications pour les MO, ATIH","Référentiel des ATU de l'ATIH","Tarifs GHT pour valoriser les RAPSS de l'HAD public","Table des tarifs MCO GHS ATIH public","Table contenant les GHM et libellés des GHS 9999, donc GHM sans tarifs","Table des tarifs MCO suppléments T2A public"],["non","non","non","non","non","non","non","non","non","non","non","non","non","oui","oui","non","oui","oui","oui","oui","oui","oui","oui","oui","oui","non","oui","oui","oui","non","oui","oui","oui","oui","oui","oui","non","non","non","oui","oui","non","oui","non","oui"],["v62","v62","v62","v62","v62","v62","v62","v62","v62","v62","v62","v62","v62",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"v522",null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>nom_table<\/th>\n      <th>commentaire_table<\/th>\n      <th>anseqta<\/th>\n      <th>version<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":50,"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/get_table.html">get_table</a></span><span class="op">(</span><span class="st">'dictionnaire_tables'</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="va">dico</span></span>
+<span></span>
+<span><span class="fu">DT</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/DT/man/datatable.html" class="external-link">datatable</a></span><span class="op">(</span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/distinct.html" class="external-link">distinct</a></span><span class="op">(</span><span class="va">dico</span>, <span class="va">nom_table</span>, <span class="va">commentaire_table</span>, <span class="va">anseqta</span>, <span class="va">version</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> </span>
+<span>                <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html" class="external-link">select</a></span><span class="op">(</span><span class="va">nom_table</span>, <span class="va">commentaire_table</span>, <span class="va">anseqta</span>, <span class="va">version</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span> </span>
+<span>                <span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/arrange.html" class="external-link">arrange</a></span><span class="op">(</span><span class="va">nom_table</span><span class="op">)</span>, </span>
+<span>              escape <span class="op">=</span> <span class="cn">F</span>, rownames <span class="op">=</span> <span class="cn">F</span>, options <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>pageLength <span class="op">=</span> <span class="fl">50</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f1758934204b1f3fc99e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f1758934204b1f3fc99e">{"x":{"filter":"none","vertical":false,"data":[["ccam_actes","ccam_actes_avec_descri","ccam_descri","ccam_hierarchie_actes","ccam_icr","ccam_libelle_modificateur","ccam_libelle_regroupement","ccam_libelle_specialite_medicale","ccam_libelles_grille_tarifs","ccam_notes","ccam_regroupement","ccam_tarifs","ccam_tarifs_detailles","cim","cim_hierarchie_code","codes_geo_com_ts_corresp","csarr_acte_ref","csarr_code","csarr_code_extdoc","csarr_geste_compl","csarr_hier","csarr_modulateur","csarr_note_csarr_code","csarr_note_csarr_hier","csarr_ponderation","dictionnaire_tables","ghm_dms_nationales","ghm_ghm_regroupement","ghm_rghm_regroupement","lib_mco_um","lib_ssr_autoum","lib_ssr_cm","lib_ssr_gme","lib_ssr_gn","lib_ssr_intercd","lib_ssr_rgme","lpp_fiche","mco_dmiref_atih_historique_liste_lpp","mco_medref_atih_historique_liste_ucd","mco_medref_atih_indications","mco_medref_atih_indications_atu","tarifs_had_ght","tarifs_mco_ghs","tarifs_mco_ghs_9999","tarifs_mco_supplements",null],["Table des actes CCAM","Table des actes CCAM contenant l'information sur 7 caractères et l'information descriptive sur 2 caractères séparés, un acte présentant une extension descriptive est présent autant de fois qu'il a d'extension descriptive différentes + une fois sur 7 caractères sans extension : un flag indique si le code peut présenter une extension descriptive","Table contenant les actes avec extension descriptive et leurs extensions descriptives","Table contenant la CCAM niveau acte et la hiérarchie des codes CCAM (chapitre / sous-chapitre / …)","Table contenant les indices de couts relatifs","Table de libellé des modificateurs CCAM","Table de libellé des regroupements CCAM","Table de libellé des codes spécialités médicales","Libellé des différents secteurs / grille des tarifs CCAM","Table contenant les notes de la CCAM","Table contenant les codes regroupements","Tarifs des actes CCAM pour le secteur 1 (Secteur 1 / adhérent / SF), avec historique","Tarifs des actes CCAM pour chacune des grilles tarifaires, avec historique","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","Tables de la classification internationale des maladies 10è version - version ATIH - année séquentielle des tarifs","correspondance codes INSEE - codes PMSI","Codes CSARR, libellé de l’acte et l’information « individuel dédié »,« individuel non dédié », « collectif », « pluriprofessionnel », « séance »","Les codes et libellés des actes CSARR","CSARR : codes extension documentaire","Référentiel des gestes complémentaires liés aux codes actes","Subdivision hiérarchique du CSARR","Référentiel des modulateurs liés aux codes actes","Notes liées aux actes CSARR","Notes concernant la subdivision hiérarchique du CSARR","Pondérations","Dictionnaire des tables","DMS nationales depuis 2007","Table des regroupements de GHM ATIH","Table des regroupements de racines de GHM ATIH","Table de libellé des types d'autorisations T2A","Autorisations SSR","Catégories majeures SSR","Groupe médico-économiques","Groupes nosologiques","Intervenants SSR","Racine des groupes médico-économiques","Table contenant les codes LPP, libellés, arborescence de la LPP et les numéros de référence médicale","Référentiel des DMI de l'ATIH","Référentiel historisé des med de l'ATIH","Référentiel des indications pour les MO, ATIH","Référentiel des ATU de l'ATIH","Tarifs GHT pour valoriser les RAPSS de l'HAD public","Table des tarifs MCO GHS ATIH public","Table contenant les GHM et libellés des GHS 9999, donc GHM sans tarifs","Table des tarifs MCO suppléments T2A public",null],["non","non","non","non","non","non","non","non","non","non","non","non","non","oui","oui","non","oui","oui","oui","oui","oui","oui","oui","oui","oui","non","oui","oui","oui","non","oui","oui","oui","oui","oui","oui","non","non","non","oui","oui","non","oui","non","oui","20180129"],["v68","v68","v68","v68","v68","v68","v68","v68","v68","v68","v68","v68","v68",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"v522",null,null,null,null,null,null,null,null,null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>nom_table<\/th>\n      <th>commentaire_table<\/th>\n      <th>anseqta<\/th>\n      <th>version<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":50,"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
-<div id="visualiser-les-tables-avec-shiny" class="section level1">
-<h1 class="hasAnchor">
-<a href="#visualiser-les-tables-avec-shiny" class="anchor"></a>Visualiser les tables avec shiny</h1>
+<div class="section level2">
+<h2 id="visualiser-les-tables-avec-shiny">Visualiser les tables avec shiny<a class="anchor" aria-label="anchor" href="#visualiser-les-tables-avec-shiny"></a>
+</h2>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-<span class="fu"><a href="../reference/explore_nomensland.html">explore_nomensland</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="../reference/explore_nomensland.html">explore_nomensland</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p><img src="explore_nomensland.png"></p>
 </div>
   </div>
@@ -227,11 +222,13 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by .</p>
+  <p></p>
+<p>Developed by Guillaume Pressiat.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
       </footer>
@@ -239,6 +236,8 @@
 
   
 
+
+  
 
   </body>
 </html>

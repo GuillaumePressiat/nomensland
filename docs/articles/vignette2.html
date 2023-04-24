@@ -19,6 +19,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-article">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -31,23 +33,17 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">nomensland</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.3</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.3</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="../index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
-<li>
   <a href="../reference/index.html">Reference</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Articles
      
     <span class="caret"></span>
@@ -64,7 +60,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/GuillaumePressiat/nomensland/">
+  <a href="https://github.com/GuillaumePressiat/nomensland/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -79,125 +75,125 @@
 
       
 
-      </header><script src="vignette2_files/header-attrs-2.11/header-attrs.js"></script><script src="vignette2_files/htmlwidgets-1.5.3/htmlwidgets.js"></script><link href="vignette2_files/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet">
+      </header><script src="vignette2_files/htmlwidgets-1.6.0/htmlwidgets.js"></script><link href="vignette2_files/jsoneditor-5.25.6/jsoneditor.min.css" rel="stylesheet">
 <script src="vignette2_files/jsoneditor-5.25.6/jsoneditor.min.js"></script><script src="vignette2_files/jsonedit-binding-3.0.0/jsonedit.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>Accéder à des listes de requêtes</h1>
-                        <h4 class="author">G. Pressiat</h4>
+                        <h4 data-toc-skip class="author">G.
+Pressiat</h4>
             
-            <h4 class="date">2021-11-28</h4>
+            <h4 data-toc-skip class="date">2023-04-24</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/GuillaumePressiat/nomensland/blob/master/vignettes/vignette2.Rmd"><code>vignettes/vignette2.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/GuillaumePressiat/nomensland/blob/HEAD/vignettes/vignette2.Rmd" class="external-link"><code>vignettes/vignette2.Rmd</code></a></small>
       <div class="hidden name"><code>vignette2.Rmd</code></div>
 
     </div>
 
     
     
-<div id="exemples-daccès-à-une-requête" class="section level1">
-<h1 class="hasAnchor">
-<a href="#exemples-dacc%C3%A8s-%C3%A0-une-requ%C3%AAte" class="anchor"></a>Exemples d’accès à une requête</h1>
-<div id="chimiothérapie-hyperthermique-intra-péritonéale-chip" class="section level2">
-<h2 class="hasAnchor">
-<a href="#chimioth%C3%A9rapie-hyperthermique-intra-p%C3%A9riton%C3%A9ale-chip" class="anchor"></a>Chimiothérapie hyperthermique intra-péritonéale (CHIP)</h2>
+<div class="section level2">
+<h2 id="exemples-daccès-à-une-requête">Exemples d’accès à une requête<a class="anchor" aria-label="anchor" href="#exemples-dacc%C3%A8s-%C3%A0-une-requ%C3%AAte"></a>
+</h2>
+<div class="section level3">
+<h3 id="chimiothérapie-hyperthermique-intra-péritonéale-chip">Chimiothérapie hyperthermique intra-péritonéale (CHIP)<a class="anchor" aria-label="anchor" href="#chimioth%C3%A9rapie-hyperthermique-intra-p%C3%A9riton%C3%A9ale-chip"></a>
+</h3>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-<span class="co">#&gt; Warning: le package 'nomensland' a été compilé avec la version R 4.0.5</span>
-
-<span class="fu"><a href="../reference/get_liste.html">get_liste</a></span><span class="op">(</span><span class="st">'chip'</span><span class="op">)</span>
-<span class="co">#&gt; $nom</span>
-<span class="co">#&gt; [1] "Chimiothérapie hyperthermique intra-péritonéale (CHIP)"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $abrege</span>
-<span class="co">#&gt; [1] "chip"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $thematique</span>
-<span class="co">#&gt; [1] "Recours Exceptionnel"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $actes</span>
-<span class="co">#&gt; [1] "HPLB003"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $date_saisie</span>
-<span class="co">#&gt; [1] "2017-04-23T22:00:00Z"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $auteur</span>
-<span class="co">#&gt; [1] "DGOS - ATIH"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $timestamp</span>
-<span class="co">#&gt; [1] 1493282250</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="../reference/get_liste.html">get_liste</a></span><span class="op">(</span><span class="st">'chip'</span><span class="op">)</span></span>
+<span><span class="co">#&gt; $nom</span></span>
+<span><span class="co">#&gt; [1] "Chimiothérapie hyperthermique intra-péritonéale (CHIP)"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $abrege</span></span>
+<span><span class="co">#&gt; [1] "chip"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $thematique</span></span>
+<span><span class="co">#&gt; [1] "Recours Exceptionnel"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $actes</span></span>
+<span><span class="co">#&gt; [1] "HPLB003"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $date_saisie</span></span>
+<span><span class="co">#&gt; [1] "2017-04-23T22:00:00Z"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $auteur</span></span>
+<span><span class="co">#&gt; [1] "DGOS - ATIH"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $timestamp</span></span>
+<span><span class="co">#&gt; [1] 1493282250</span></span></code></pre></div>
 </div>
-<div id="cancérologie-chirurgie-m4-inca-digestif" class="section level2">
-<h2 class="hasAnchor">
-<a href="#canc%C3%A9rologie-chirurgie-m4-inca-digestif" class="anchor"></a>Cancérologie : Chirurgie M4 Inca, Digestif</h2>
+<div class="section level3">
+<h3 id="cancérologie-chirurgie-m4-inca-digestif">Cancérologie : Chirurgie M4 Inca, Digestif<a class="anchor" aria-label="anchor" href="#canc%C3%A9rologie-chirurgie-m4-inca-digestif"></a>
+</h3>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/">nomensland</a></span><span class="op">)</span>
-
-<span class="fu"><a href="../reference/get_liste.html">get_liste</a></span><span class="op">(</span><span class="st">'m4_inca_digestif'</span><span class="op">)</span>
-<span class="co">#&gt; $nom</span>
-<span class="co">#&gt; [1] "Digestif"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $abrege</span>
-<span class="co">#&gt; [1] "m4_inca_digestif"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $thematique</span>
-<span class="co">#&gt; [1] "Cancérologie : Chirurgie M4 Inca"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $agemin</span>
-<span class="co">#&gt; [1] 18</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $autres</span>
-<span class="co">#&gt; [1] "rsatype == 'C'"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $diags</span>
-<span class="co">#&gt;   [1] "C150"   "C151"   "C152"   "C153"   "C154"   "C155"   "C158"   "C159"  </span>
-<span class="co">#&gt;   [9] "C160"   "C161"   "C162"   "C163"   "C164"   "C165"   "C166"   "C168"  </span>
-<span class="co">#&gt;  [17] "C169"   "C169+0" "C169+8" "C170"   "C171"   "C172"   "C173"   "C178"  </span>
-<span class="co">#&gt;  [25] "C179"   "C180"   "C181"   "C182"   "C183"   "C184"   "C185"   "C186"  </span>
-<span class="co">#&gt;  [33] "C187"   "C188"   "C189"   "C189+0" "C189+8" "C19"    "C20"    "C210"  </span>
-<span class="co">#&gt;  [41] "C211"   "C212"   "C218"   "C220"   "C221"   "C222"   "C223"   "C224"  </span>
-<span class="co">#&gt;  [49] "C227"   "C229"   "C23"    "C240"   "C241"   "C248"   "C249"   "C250"  </span>
-<span class="co">#&gt;  [57] "C251"   "C252"   "C253"   "C254"   "C254+0" "C254+8" "C257"   "C258"  </span>
-<span class="co">#&gt;  [65] "C259"   "C259+0" "C259+8" "C260"   "C261"   "C268"   "C269"   "C451"  </span>
-<span class="co">#&gt;  [73] "C4671"  "C480"   "C481"   "C482"   "C488"   "C784"   "C785"   "C786"  </span>
-<span class="co">#&gt;  [81] "C787"   "C788"   "D001"   "D002"   "D010"   "D011"   "D012"   "D013"  </span>
-<span class="co">#&gt;  [89] "D014"   "D015"   "D017"   "D019"   "D371"   "D372"   "D373"   "D374"  </span>
-<span class="co">#&gt;  [97] "D375"   "D376"   "D377"   "D379"   "D483"   "D4830"  "D4838"  "D484"  </span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $positions_diags</span>
-<span class="co">#&gt; [1] "dp"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $date_saisie</span>
-<span class="co">#&gt; [1] "2017-05-31T22:00:00Z"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $auteur</span>
-<span class="co">#&gt; [1] "Inca"</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; $timestamp</span>
-<span class="co">#&gt; [1] 1494598713</span></code></pre></div>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://guillaumepressiat.github.io/nomensland/" class="external-link">nomensland</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="../reference/get_liste.html">get_liste</a></span><span class="op">(</span><span class="st">'m4_inca_digestif'</span><span class="op">)</span></span>
+<span><span class="co">#&gt; $nom</span></span>
+<span><span class="co">#&gt; [1] "Digestif"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $abrege</span></span>
+<span><span class="co">#&gt; [1] "m4_inca_digestif"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $thematique</span></span>
+<span><span class="co">#&gt; [1] "Cancérologie : Chirurgie M4 Inca"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $agemin</span></span>
+<span><span class="co">#&gt; [1] 18</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $autres</span></span>
+<span><span class="co">#&gt; [1] "rsatype == 'C'"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $diags</span></span>
+<span><span class="co">#&gt;   [1] "C150"   "C151"   "C152"   "C153"   "C154"   "C155"   "C158"   "C159"  </span></span>
+<span><span class="co">#&gt;   [9] "C160"   "C161"   "C162"   "C163"   "C164"   "C165"   "C166"   "C168"  </span></span>
+<span><span class="co">#&gt;  [17] "C169"   "C169+0" "C169+8" "C170"   "C171"   "C172"   "C173"   "C178"  </span></span>
+<span><span class="co">#&gt;  [25] "C179"   "C180"   "C181"   "C182"   "C183"   "C184"   "C185"   "C186"  </span></span>
+<span><span class="co">#&gt;  [33] "C187"   "C188"   "C189"   "C189+0" "C189+8" "C19"    "C20"    "C210"  </span></span>
+<span><span class="co">#&gt;  [41] "C211"   "C212"   "C218"   "C220"   "C221"   "C222"   "C223"   "C224"  </span></span>
+<span><span class="co">#&gt;  [49] "C227"   "C229"   "C23"    "C240"   "C241"   "C248"   "C249"   "C250"  </span></span>
+<span><span class="co">#&gt;  [57] "C251"   "C252"   "C253"   "C254"   "C254+0" "C254+8" "C257"   "C258"  </span></span>
+<span><span class="co">#&gt;  [65] "C259"   "C259+0" "C259+8" "C260"   "C261"   "C268"   "C269"   "C451"  </span></span>
+<span><span class="co">#&gt;  [73] "C4671"  "C480"   "C481"   "C482"   "C488"   "C784"   "C785"   "C786"  </span></span>
+<span><span class="co">#&gt;  [81] "C787"   "C788"   "D001"   "D002"   "D010"   "D011"   "D012"   "D013"  </span></span>
+<span><span class="co">#&gt;  [89] "D014"   "D015"   "D017"   "D019"   "D371"   "D372"   "D373"   "D374"  </span></span>
+<span><span class="co">#&gt;  [97] "D375"   "D376"   "D377"   "D379"   "D483"   "D4830"  "D4838"  "D484"  </span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $positions_diags</span></span>
+<span><span class="co">#&gt; [1] "dp"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $date_saisie</span></span>
+<span><span class="co">#&gt; [1] "2017-05-31T22:00:00Z"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $auteur</span></span>
+<span><span class="co">#&gt; [1] "Inca"</span></span>
+<span><span class="co">#&gt; </span></span>
+<span><span class="co">#&gt; $timestamp</span></span>
+<span><span class="co">#&gt; [1] 1494598713</span></span></code></pre></div>
 </div>
 </div>
-<div id="exemples-daccès-à-une-thématique-liste-de-requêtes" class="section level1">
-<h1 class="hasAnchor">
-<a href="#exemples-dacc%C3%A8s-%C3%A0-une-th%C3%A9matique-liste-de-requ%C3%AAtes" class="anchor"></a>Exemples d’accès à une thématique (liste de requêtes)</h1>
+<div class="section level2">
+<h2 id="exemples-daccès-à-une-thématique-liste-de-requêtes">Exemples d’accès à une thématique (liste de requêtes)<a class="anchor" aria-label="anchor" href="#exemples-dacc%C3%A8s-%C3%A0-une-th%C3%A9matique-liste-de-requ%C3%AAtes"></a>
+</h2>
 <p>On accède à un ensemble de listes (liste de listes)</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="va">objet</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_all_listes.html">get_all_listes</a></span><span class="op">(</span><span class="st">'Recours Exceptionnel'</span><span class="op">)</span>
-
-<span class="fu">listviewer</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/listviewer/man/jsonedit.html">jsonedit</a></span><span class="op">(</span><span class="va">objet</span>, mode <span class="op">=</span> <span class="st">"code"</span><span class="op">)</span></code></pre></div>
-<div id="htmlwidget-0a1de9312b32bc4dd7fd" style="width:700px;height:432.632880098888px;" class="jsonedit html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0a1de9312b32bc4dd7fd">{"x":{"data":[{"nom":"Actes intracérébraux par voie stéréotaxique","abrege":"actes_intracerebraux_voie_stereotaxique","thematique":"Recours Exceptionnel","actes":["AALB001","AANB001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281888},{"nom":"AREC en réanimation néo-natale","abrege":"arec_rea_nnat","thematique":"Recours Exceptionnel","agejrmax":28,"actes":"GLJF010","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281918},{"nom":"Atrésie des voies biliaires","abrege":"atresie_voies_biliaires","thematique":"Recours Exceptionnel","autres":"substr(ghm,3,3) == 'C'","diags":"Q442","positions_diags":"toutes","actes":["HLCA001","HLEA002","HMCA007","HMCA008","HLFA019","HMCA005","HMFA007","HMAH001","HLSA001","HGCA008","HMAH002","HMFA009","HMJA001","HMCA001","HMJH002","HMCA006","HLCA002","HMQH008","HLJA001","HMFA001","HFCA004","HGCA003","HMCA011","HMFA010","HLFA014"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281976},{"nom":"Cathétérisme cardiaque interventionnel pédiatrique pour cardiopathies congénitales","abrege":"cathe_cardiaque_interv_pediatrique_cardiopathie_congenitales","thematique":"Recours Exceptionnel","agemax":15,"diags":["Q20","Q21","Q22","Q23","Q24","Q25","Q26"],"positions_diags":"toutes","actes":["DAAF001","DAAF002","DAGF001","DAHF001","DAMF001","DASF003","DBAF001","DBAF002","DBAF003","DBAF004","DBAF005","DBLF009","DGAF001","DGAF003","DGAF004","DGAF006","DGAF007","DGLF003","EZGF001"],"date_saisie":"2017-04-23T22:00:00Z","commentaire":"Catégories d'âge suivantes : { [0 - 28 jours] ; [29 jours ; 1 an[ ; [1 an ; 5 ans] ; [6 ans ; 15 ans ] }","auteur":"DGOS - ATIH","timestamp":1493282163},{"nom":"Chimioembolisation de tumeurs hépatiques ou rénales","abrege":"chimioembolisation","thematique":"Recours Exceptionnel","actes":["EDLF016","EDLF017","EDLL001","EDLF018","EDLF019"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282222},{"nom":"Chimiothérapie hyperthermique intra-péritonéale (CHIP)","abrege":"chip","thematique":"Recours Exceptionnel","actes":"HPLB003","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282250},{"nom":"Chirurgie de recours de l'oesophage (hors cancer)","abrege":"chir_oesophage_hors_cancer","thematique":"Recours Exceptionnel","diags":["T281","T286","K222","K223"],"diags_exclus":"C","positions_diags":"toutes","actes":["HECA002","HEFA002","HEFA003","HEFA006","HEFA007","HEFA009","HEFA011","HEFA012","HEFA016","HEFA018","HEFA022","HEPA005","HEPA007","HEMA001","HEMA005"],"date_saisie":"2017-01-23T23:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282350},{"nom":"Chirurgie pédiatrique complexe pour cardiopathies congénitales","abrege":"chir_ped_complex_cardiopath_congenit","thematique":"Recours Exceptionnel","agemax":5,"diags":["Q20","Q21","Q22","Q23","Q24","Q25","Q26"],"positions_diags":"toutes","actes":["DAAA002","DAAA003","DAFA001","DAFA003","DAFA005","DAFA006","DAFA007","DAFA009","DAFA010","DAGA001","DAMA003","DAMA005","DAPA001","DAPC001","DASA001","DASA002","DASA003","DASA004","DASA007","DASA008","DASA009","DASA010","DASA011","DASA012","DASA013","DASA014","DBKA001","DBKA002","DBKA003","DBKA004","DBKA005","DBKA006","DBKA007","DBKA008","DBKA009","DBKA010","DBKA011","DBKA012","DBLA001","DBLA002","DBLA003","DBMA001","DBMA002","DBMA003","DBMA004","DBMA005","DBMA006","DBMA007","DBMA008","DBMA009","DBMA010","DBMA011","DBMA012","DBMA013","DBMA015","DBPA001","DBPA002","DBPA003","DBPA004","DBPA006","DBPA007","DDAA002","DDEA001","DDSA001","DDSA002","DFAA002","DFAA003","DFAA004","DFAA005","DFAF001","DFAF002","DFAF003","DFAF004","DFBA001","DFCA002","DFCA003","DFCA004","DFCA005","DFCA006","DFCA007","DFCA008","DFCA009","DFCA010","DFEA001","DFGA001","DFGA002","DFGA003","DFGA004","DFMA001","DFMA003","DFMA004","DFMA006","DFMA008","DFMA010","DFMA011","DFMA012","DFSA001","DGAA002","DGAA004","DGAA005","DGDA001","DGFA013","DGFA016","DGFA018","DGFA020","DGKA001","DGKA003","DGKA009","DGKA011","DGKA012","DGKA014","DGKA015","DGKA017","DGKA018","DGKA021","DGKA022","DGKA024","DGKA025","DGKA026","DGMA001","DGMA002","DGMA005","DGMA009","DGMA010","DGMA011","DGMA012","DGSA003","DZMA001","DZMA002","DZMA003","DZMA004","DZMA005","DZMA006","DZMA007","DZMA009","DZMA010","DZMA011","DZMA012","DZSA001","ECPA003","EPMA001","EPMA002","EZSA005"],"date_saisie":"2017-04-23T22:00:00Z","commentaire":"Catégories d'âge suivantes : { [0 - 28 jours] ; [29 jours ; 1 an[ ; [1 an ; 5 ans] }","auteur":"DGOS - ATIH","timestamp":1493282426},{"nom":"Chirurgie des sarcomes","abrege":"chir_sarcome","thematique":"Recours Exceptionnel","ghm_exclus":["28Z10Z","28Z11Z","28Z18Z","28Z25Z","17K04","17K06"],"diags":["C40","C41","C48","C49"],"positions_diags":"dp","actes":["BKGA007","BKGA006","BKGA004","BKGA001","BKMA003","BKMA001","BKMA002","BKMA004","BKMP001","CAFA006","CAFA009","CAFA011","CAFA002","CAFA005","CAFA003","CAFA007","CAFA004","CAFA010","CAFA001","CAFA008","FCFA012","FCFA021","FCFA028","FCFA016","FCFA020","FCFA008","FCFA027","FCFA025","FCFA013","FCFA005","FCFA009","FCFA003","FCFA026","FCFA015","FCFA014","FCFA023","FCFC002","FCFA002","FCFA004","FCFC003","FCFA006","FCFC001","FCFA019","FCFC005","FCFA010","FCFC004","FCFA022","FCFA018","FCFA029","FCFA011","FCFA007","GAMA019","GAMA018","GAMA012","GAMA002","GAMA014","GAMA006","GAMA023","GAMA021","GAMA008","GAMA003","GAMA024","GAMA013","GAMA001","GAMA020","GAMA004","GAMA016","GAMA010","GAMA005","GAMA015","GAMA009","GAMA022","GAME001","GBBA002","GBBA001","GBPE003","GBPE001","GBPA004","GBPA002","GBPA001","GBPA003","GBPE002","GCFD001","GCFD002","GCFA005","GCFA003","GCFA007","GCFA004","GCFA006","GCFA001","GCFA002","HAFA008","HAFA020","HAFA031","HAFA014","HAFA028","HAFA030","HAFA015","HAFA032","HAFA019","HAFA021","HAFA022","HAFA034","HAFA009","HAFA023","HAFA001","HAFA005","HAFA013","HAFA003","HAFA012","HAFA029","HAFA016","HAFA007","HAFA006","HAFA027","HAFA033","HAFA024","HAFA004","HAFA002","HAFA026","HAFA017","HAFA011","HCFA007","HCFA003","HCFA011","HCFA001","HCFA004","HCFA008","HCFA009","HCFA002","HCFA010","HCFA006","HCFA005","HCFA013","HCFA012","HDFA020","HDFA022","HDFA021","HDFE002","HDFA018","HDFE003","HDFE001","HDFA015","HDFA014","HDFA002","HDFA008","HDFA009","HDFA017","HDFA019","HDFA007","HDFA004","HDFA011","HDFA013","HDFA016","HDFA012","HDFA005","HDFA003","HDFA010","HDFA001","HDFA006","HFFC001","HFFA009","HFFA003","HFFC012","HFFA002","HFFC002","HFFA006","HFFC017","HFFA005","HFFA008","HFFC003","HFFA010","HFFA007","HFFA004","HGFE005","HGFA014","HGFE004","HGFE002","HGFE003","HGFE001","HGFA001","HGFA005","HGFC014","HGFA003","HGFC021","HGFA007","HGFC016","HGFA004","HGFA013","HGFA012","HGFC001","HGFA010","HGFA011","HGFA008","HGFA009","HGFC002","HGFA006","HGPA005","HGPA003","HGPC006","HGPA002","HGPH001","HGPA006","HGPC005","HGPC015","HGPA004","HHFE001","HHFE002","HHFE005","HHFE004","HHFC001","HHFE006","HHFA026","HHFA009","HHFA008","HHFA018","HHFA023","HHFA014","HHFA017","HHFA010","HHFA024","HHFA006","HHFA002","HHFA021","HHFA005","HHFA022","HHFA004","HHFA030","HHFA029","HHFA031","HHFA028","HHFA003","HHFA027","HHPC001","HHPA002","HHPC002","HHPA001","HJFD002","HJFA003","HJFA018","HJFA013","HJFC031","HJFA011","HJFA002","HJFA004","HJFA006","HJFA017","HJFA001","HJFA005","HJFA007","HJFA019","HJFA014","HJFC023","HJFA012","HJFA008","HJFA009","HJFD004","HJFD001","HJFD005","HJFC002","HJFA020","HJFD003","HJFC001","HJFA016","HJFC003","HJFA015","HJFA010","HLFA014","HLFA012","HLFA002","HLFC003","HLFA019","HLFC004","HLFA020","HLFA003","HLFC027","HLFA009","HLFC032","HLFA006","HLFC002","HLFA011","HLFC037","HLFA018","HLFA007","HLFA017","HLFA004","HLFA005","HLFA010","HPMP002","HPML001","HMFC004","HMFA007","HMFC001","HMFA004","HMFC002","HMFA003","HMFA008","HMFC003","HMFA006","HMFA002","HMFC005","HMFA005","HMFA001","HMFA009","HMFA010","HNFC027","HNFA012","HNFC001","HNFA005","HNFC028","HNFA008","HNFA002","HNFC002","HNFA013","HNFA010","HNFA001","HNFA011","HNFA006","HNFA007","HNFA004","HNFA009","HPMB001","HPFC001","HPFA003","HPFC002","HPFA004","HPBA001","HPFC007","HPFA001","HPMA003","HPMA002","HPBA002","HPMA001","JAFC008","JAFA007","JAFA004","JAFC005","JAFA030","JAFA024","JAFA019","JAFA008","JAFA006","JAFC002","JAFA001","JAFC007","JAFA003","JAFA026","JAFC006","JAFA023","JAFA010","JAFA002","JAFA012","JAFC001","JAFA032","JAFC004","JAFA016","JAFA027","JAFA031","JAFC019","JAFA009","JAFA022","JAFA014","JAFA021","JAFC010","JAFA029","JAFA025","JAFA028","JAFA011","JAFA005","JCFD001","JCFF001","JCFE001","JCFE003","JCFE002","JCFA002","JCFA003","JCFA009","JCFA008","JCFA010","JCPA003","JCFA005","JCFA007","JCFA004","JCFA006","JCFC001","JCFA001","JCPD001","JCPC002","JCPA002","JCPC001","JCPA001","JCPE002","JCPE001","JDFE002","JDFE001","JDFC001","JDFA002","JDFC023","JDFA011","JDFA014","JDFA017","JDFA004","JDFA015","JDFA005","JDFA001","JDFA008","JDFA003","JDFA009","JDFA006","JDFA016","JDFA007","JDFA012","JDFA013","JDFA010","JDFE003","JDFA018","JDFA024","JDFA023","JDFA025","JDFA020","JDFA019","JDFA022","JDFA021","JKFE001","JKFE002","JKFC004","JKFC001","JKFA033","JKFA016","JKFA022","JKFD001","JKFD002","JKFE003","JKFA031","JKFA008","JKFA011","JKFA009","JKFA030","JKFA019","JKFA003","JKFC002","JKFA024","JKFA014","JKFA012","JKFC006","JKFA032","JKFA001","JKFA029","JKFC005","JKFA018","JKFA026","JKFA015","JKFA025","JKFA002","JKFA013","JKFC003","JKFA006","JKFA005","JKFA028","JKFA021","JKFA007","JKFA004","JKFA020","JKFA023","JKFA027","JFFA006","JFFC002","JFFA010","JFFA021","JFFC001","JFFA012","JFFA014","JFFA007","JFFA020","JFFA017","JFFA015","JFFA018","JFFA001","JFFA003","JFFA016","JFFA009","JFFA019","JFFA022","JFFA005","JFFA004","JFFA002","JFFA008","JFFA011","JFFA013","LBMP003","LBMP001","LBMP002","LBGD001","LBPA028","LBPA024","LBPA027","LBPA029","LBPA015","LBPA035","LBPA006","LBPA022","LBPA017","LBPA031","LBPA009","LBPA008","LBPA012","LBPA032","LBPA043","LBPA010","LBPA038","LBFA006","LBFA011","LBFA033","LBFA024","LBFA005","LBFA007","LBFA023","LBFA030","LBFA002","LBFA028","LBFA014","LBFA001","LBPA034","LBPA030","LBPA007","LBPA021","LBPA042","LBPA004","LBPA040","LBPA023","LBPA011","LBPA020","LBPA033","LBPA019","LBPA041","LBPA014","LBPA005","LBPA037","LBPA002","LBPA016","LBPA026","LBPA039","LBPA036","LBPA018","LBPA013","LBPA001","LBPA025","LBGA005","LBFA015","LBFA018","LBFA010","LBFA008","LBFA029","LBFA020","LBFA009","LBFA004","LBFA036","LBFA027","LBFA017","LBFA034","LBFA037","LBFA039","LBFA026","LBFA022","LBFA038","LBPA003","LBMA002","LBGA004","LBGA003","LBGA002","LBGA006","LBGA007","LBGA008","LBGA009","LBFA031","LBFA032","LBFA025","LBFA003","LBMA006","LBMA001","LBMA004","LBFA013","LBMA003","LBFA019","LBFA035","LBFA016","LBFA012","LCPA001","LMFA003","LMFA001","LMFA002","QZFA038","QZFA023","QZFA028","QZFA021","QZFA010","QZFA015","QZFA013","QZFA022","QZFA036","QZFA031","QZFA003","QZFA004","QZFA011","QZFA035","QZFA030","QZFA008","QZFA033","QZFA026","QZFA002","QZFA001","QZFA005","QZFA007","QZFA024","QZMA004","QZMA005","QZMA007","QZMA003","QZMA009","QAMA015","QAMA003","QAMA008","QAMA005","QAMA004","QAMA013","QAMA012","QZPA008","QZPA004","QZMA006","QZMA002","QZMA010","QZFA014","QZMP002","QZMP001","QZFA020","QZFA039","QZFA029","QZFA032","QZFA009","QZPA002","QZPA001","QZPA005","QZPA007","QZPA006","QZPA003","QEFA004","QEFA001","QEFA017","QEFA008","QEFA016","QEFA007","QEFA006","QEFA011","QEFA002","QEFA019","QEFA020","QEFA005","QEFA010","QEFA003","QEFA012","QEFA013","QEFA015","QEFA009","QEFA014","QEFA018","DHPA001","LJFA002","LJFA003","LJFA004","LJFA006","LJFA007","LJFA008","LJFA009","LJFA010","LDFA009","LDFA012","LHFA031","LEFA004","LEFA006","LEFA007","LEFA010","LEFA014","LFFA009","LFFA013","LFFA014","LHFA016","LHFA019","LHFA024"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282508},{"nom":"Curiethérapie intracavitaire pulsée vaginale ou utérovaginale","abrege":"curietherapie_intra_cavaire","thematique":"Recours Exceptionnel","actes":["JKNL002","JKNL006","JLNL006","JLNL007"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282552},{"nom":"Dialyse MARS","abrege":"dialyse_mars","thematique":"Recours Exceptionnel","actes":"FEJF001","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493289735},{"nom":"ECMO hors AREC néonatale","abrege":"ecmo_hors_arec_nnat","thematique":"Recours Exceptionnel","autres":"((!is.na(agejr) & agejr > 28)| agean > 28/365.25)","actes":["EQLA001","EQLA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493286359},{"nom":"Endartériectomie pulmonaire pour hypertension artérielle pulmonaire","abrege":"endarteriectomie","thematique":"Recours Exceptionnel","actes":"DFFA003","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287628},{"nom":"Exérèses carcinilogiques étendues en pneumologie","abrege":"exerese_carcino_etendues_pneumologie","thematique":"Recours Exceptionnel","actes":["GFFA002","GFFA006","GFFA007","GFFA008","GFFA010","GFFA015","GFFA016","GFFA022","GFFA025","GFFA027","GFFA028","GFFA030","GFFA031","GFFA033","GFFA034"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287671},{"nom":"Exsanguino-transfusion chez le foetus ou le nv-né","abrege":"exsanguino_transfu_foetus_nne","thematique":"Recours Exceptionnel","agemax":1,"actes":["JQLF002","FELF005"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287713},{"nom":"Greffes de moelle en cas de grave déficit immunitaire","abrege":"greffe_moelle_deficit_immunitaire_grave","thematique":"Recours Exceptionnel","agemax":14,"ghm":"27Z02","diags":["D761","D80","D81","D82","D83","D840","D841","D848","Q782"],"positions_diags":"toutes","date_saisie":"2017-07-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287781},{"nom":"Intervention lourde en chirurgie maxillofaciale","abrege":"interv_lourde_chir_maxillo_fac","thematique":"Recours Exceptionnel","actes":["LBAA001","LBCB001","LBCB002","LALA001","LALA002","LBMA001","LBMA002","LBMA004","LBMA006"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287832},{"nom":"Malformation congénitale moelle épinière","abrege":"malformation_congenitale_moelle_epiniere","thematique":"Recours Exceptionnel","actes":["AEPA004","AFSA001","AFSA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287864},{"nom":"Malformation congénitale urètre","abrege":"malformation_congenitale_uretre","thematique":"Recours Exceptionnel","actes":["JEFA005","JEMA006","JHAA001","JHAA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287948},{"nom":"Malformation congénitale vagin ou transsexuel feminin","abrege":"malformation_congenitale_vagin","thematique":"Recours Exceptionnel","actes":["JLCA006","JLMA001","JLMA002","JLMA003","JLMA004","JLMA005","JLMC001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287991},{"nom":"Nutrition parent lg cours (hors séances) > 17 ans","abrege":"nut_parenterale_adulte","thematique":"Recours Exceptionnel","agemin":18,"autres":"duree > 21","diags":["E76","E743","K90","P77","K50","K51","Q41","Q431","K912","Z9482","T8680"],"positions_diags":"toutes","actes":["HSLF001","HSLF002","HSLF003"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288078},{"nom":"Pelvectomie","abrege":"pelvectomie","thematique":"Recours Exceptionnel","actes":["JFFA001","JFFA004","JFFA005","JFFA008","JFFA009","JFFA011","JFFA013","JFFA016","JFFA018","JFFA019","JFFA022"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288197},{"nom":"Perfusion isolée de membre","abrege":"perfusion_isolee_membre","thematique":"Recours Exceptionnel","actes":"ZZLF004","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288220},{"nom":"Pose d'assistance circulatoire","abrege":"pose_assistance_circu","thematique":"Recours Exceptionnel","actes":["EQKA003","EQLA003","EQLA004","EQLA005","EQLA006","EQLA007","EQLA008","EQLA009","EQLA010","EQLA011"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908409},{"nom":"Réanimation néonatale chez les moins de 700g","abrege":"rea_nnat_moins_700g","thematique":"Recours Exceptionnel","poidsmax":700,"agejrmax":28,"autres":"!is.na(poids) & poids != 0 & schpmsi != '9' & !(schpmsi == '7' & duree > 0 & duree < 6)","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288256},{"nom":"Reconstruction ORL par lambeaux libres (hors chirurgie des sarcomes)","abrege":"reconstruction_orl_lambeaux","thematique":"Recours Exceptionnel","autres":"substr(ghm,1,3) == '03C'","actes":["PZMA004","PZMA005","QZMA004","QZMA005","QZMA007"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288305},{"nom":"Reconstruction uro-génétale","abrege":"reconstruction_uro_genetale","thematique":"Recours Exceptionnel","diags":["Q640","Q641"],"positions_diags":"toutes","actes":["JELE001","JDSA001","JDCA001","JDSA009","JDSA003","JDMA001","JEMA002","JHAA001"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908498},{"nom":"Réimplantation membres ou doigts","abrege":"reimplant_membres_ou_doigts","thematique":"Recours Exceptionnel","actes":["MZEA002","MZEA007","MZEA011","NZEA002","NZEA007"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908550},{"nom":"Résection par thoracoscopie des lésions pulmonaires congénitales de diagnostic anténatal","abrege":"resection_thora_lesion_pulmo_congenital_nne","thematique":"Recours Exceptionnel","agemax":2,"diags":"Q33","positions_diags":"toutes","actes":["GFFA009","GFFC002","GFFC003","GFFC004","ZBQC001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288355},{"nom":"Sphincter de l'anus","abrege":"sphincter_anus","thematique":"Recours Exceptionnel","actes":"HKLA002","date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908598},{"nom":"Thermo ablation de tumeur hépatique par radiofréquence peropératoire","abrege":"thermo_ablation_tumeur_radiofrequence","thematique":"Recours Exceptionnel","actes":["HLNA007","HLNC003"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288423},{"nom":"Thermo ablation de tumeur hépatique par radiofréquence, voie transcutanée","abrege":"thermo_ablation_tumeur_voie_transcutanee","thematique":"Recours Exceptionnel","actes":["HLNK001","HLNM001","HLNN900"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288481}],"options":{"mode":"code","modes":["code","form","text","tree","view"]}},"evals":[],"jsHooks":[]}</script>
+<code class="sourceCode R"><span><span class="va">objet</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/get_all_listes.html">get_all_listes</a></span><span class="op">(</span><span class="st">'Recours Exceptionnel'</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">listviewer</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/listviewer/man/jsonedit.html" class="external-link">jsonedit</a></span><span class="op">(</span><span class="va">objet</span>, mode <span class="op">=</span> <span class="st">"code"</span><span class="op">)</span></span></code></pre></div>
+<div class="jsonedit html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-12d138ab4cd3d5d42206" style="width:700px;height:432.632880098888px;"></div>
+<script type="application/json" data-for="htmlwidget-12d138ab4cd3d5d42206">{"x":{"data":[{"nom":"Actes intracérébraux par voie stéréotaxique","abrege":"actes_intracerebraux_voie_stereotaxique","thematique":"Recours Exceptionnel","actes":["AALB001","AANB001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281888},{"nom":"AREC en réanimation néo-natale","abrege":"arec_rea_nnat","thematique":"Recours Exceptionnel","agejrmax":28,"actes":"GLJF010","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281918},{"nom":"Atrésie des voies biliaires","abrege":"atresie_voies_biliaires","thematique":"Recours Exceptionnel","autres":"substr(ghm,3,3) == 'C'","diags":"Q442","positions_diags":"toutes","actes":["HLCA001","HLEA002","HMCA007","HMCA008","HLFA019","HMCA005","HMFA007","HMAH001","HLSA001","HGCA008","HMAH002","HMFA009","HMJA001","HMCA001","HMJH002","HMCA006","HLCA002","HMQH008","HLJA001","HMFA001","HFCA004","HGCA003","HMCA011","HMFA010","HLFA014"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493281976},{"nom":"Cathétérisme cardiaque interventionnel pédiatrique pour cardiopathies congénitales","abrege":"cathe_cardiaque_interv_pediatrique_cardiopathie_congenitales","thematique":"Recours Exceptionnel","agemax":15,"diags":["Q20","Q21","Q22","Q23","Q24","Q25","Q26"],"positions_diags":"toutes","actes":["DAAF001","DAAF002","DAGF001","DAHF001","DAMF001","DASF003","DBAF001","DBAF002","DBAF003","DBAF004","DBAF005","DBLF009","DGAF001","DGAF003","DGAF004","DGAF006","DGAF007","DGLF003","EZGF001"],"date_saisie":"2017-04-23T22:00:00Z","commentaire":"Catégories d'âge suivantes : { [0 - 28 jours] ; [29 jours ; 1 an[ ; [1 an ; 5 ans] ; [6 ans ; 15 ans ] }","auteur":"DGOS - ATIH","timestamp":1493282163},{"nom":"Chimioembolisation de tumeurs hépatiques ou rénales","abrege":"chimioembolisation","thematique":"Recours Exceptionnel","actes":["EDLF016","EDLF017","EDLL001","EDLF018","EDLF019"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282222},{"nom":"Chimiothérapie hyperthermique intra-péritonéale (CHIP)","abrege":"chip","thematique":"Recours Exceptionnel","actes":"HPLB003","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282250},{"nom":"Chirurgie de recours de l'oesophage (hors cancer)","abrege":"chir_oesophage_hors_cancer","thematique":"Recours Exceptionnel","diags":["T281","T286","K222","K223"],"diags_exclus":"C","positions_diags":"toutes","actes":["HECA002","HEFA002","HEFA003","HEFA006","HEFA007","HEFA009","HEFA011","HEFA012","HEFA016","HEFA018","HEFA022","HEPA005","HEPA007","HEMA001","HEMA005"],"date_saisie":"2017-01-23T23:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282350},{"nom":"Chirurgie pédiatrique complexe pour cardiopathies congénitales","abrege":"chir_ped_complex_cardiopath_congenit","thematique":"Recours Exceptionnel","agemax":5,"diags":["Q20","Q21","Q22","Q23","Q24","Q25","Q26"],"positions_diags":"toutes","actes":["DAAA002","DAAA003","DAFA001","DAFA003","DAFA005","DAFA006","DAFA007","DAFA009","DAFA010","DAGA001","DAMA003","DAMA005","DAPA001","DAPC001","DASA001","DASA002","DASA003","DASA004","DASA007","DASA008","DASA009","DASA010","DASA011","DASA012","DASA013","DASA014","DBKA001","DBKA002","DBKA003","DBKA004","DBKA005","DBKA006","DBKA007","DBKA008","DBKA009","DBKA010","DBKA011","DBKA012","DBLA001","DBLA002","DBLA003","DBMA001","DBMA002","DBMA003","DBMA004","DBMA005","DBMA006","DBMA007","DBMA008","DBMA009","DBMA010","DBMA011","DBMA012","DBMA013","DBMA015","DBPA001","DBPA002","DBPA003","DBPA004","DBPA006","DBPA007","DDAA002","DDEA001","DDSA001","DDSA002","DFAA002","DFAA003","DFAA004","DFAA005","DFAF001","DFAF002","DFAF003","DFAF004","DFBA001","DFCA002","DFCA003","DFCA004","DFCA005","DFCA006","DFCA007","DFCA008","DFCA009","DFCA010","DFEA001","DFGA001","DFGA002","DFGA003","DFGA004","DFMA001","DFMA003","DFMA004","DFMA006","DFMA008","DFMA010","DFMA011","DFMA012","DFSA001","DGAA002","DGAA004","DGAA005","DGDA001","DGFA013","DGFA016","DGFA018","DGFA020","DGKA001","DGKA003","DGKA009","DGKA011","DGKA012","DGKA014","DGKA015","DGKA017","DGKA018","DGKA021","DGKA022","DGKA024","DGKA025","DGKA026","DGMA001","DGMA002","DGMA005","DGMA009","DGMA010","DGMA011","DGMA012","DGSA003","DZMA001","DZMA002","DZMA003","DZMA004","DZMA005","DZMA006","DZMA007","DZMA009","DZMA010","DZMA011","DZMA012","DZSA001","ECPA003","EPMA001","EPMA002","EZSA005"],"date_saisie":"2017-04-23T22:00:00Z","commentaire":"Catégories d'âge suivantes : { [0 - 28 jours] ; [29 jours ; 1 an[ ; [1 an ; 5 ans] }","auteur":"DGOS - ATIH","timestamp":1493282426},{"nom":"Chirurgie des sarcomes","abrege":"chir_sarcome","thematique":"Recours Exceptionnel","ghm_exclus":["28Z10Z","28Z11Z","28Z18Z","28Z25Z","17K04","17K06"],"diags":["C40","C41","C48","C49"],"positions_diags":"dp","actes":["BKGA007","BKGA006","BKGA004","BKGA001","BKMA003","BKMA001","BKMA002","BKMA004","BKMP001","CAFA006","CAFA009","CAFA011","CAFA002","CAFA005","CAFA003","CAFA007","CAFA004","CAFA010","CAFA001","CAFA008","FCFA012","FCFA021","FCFA028","FCFA016","FCFA020","FCFA008","FCFA027","FCFA025","FCFA013","FCFA005","FCFA009","FCFA003","FCFA026","FCFA015","FCFA014","FCFA023","FCFC002","FCFA002","FCFA004","FCFC003","FCFA006","FCFC001","FCFA019","FCFC005","FCFA010","FCFC004","FCFA022","FCFA018","FCFA029","FCFA011","FCFA007","GAMA019","GAMA018","GAMA012","GAMA002","GAMA014","GAMA006","GAMA023","GAMA021","GAMA008","GAMA003","GAMA024","GAMA013","GAMA001","GAMA020","GAMA004","GAMA016","GAMA010","GAMA005","GAMA015","GAMA009","GAMA022","GAME001","GBBA002","GBBA001","GBPE003","GBPE001","GBPA004","GBPA002","GBPA001","GBPA003","GBPE002","GCFD001","GCFD002","GCFA005","GCFA003","GCFA007","GCFA004","GCFA006","GCFA001","GCFA002","HAFA008","HAFA020","HAFA031","HAFA014","HAFA028","HAFA030","HAFA015","HAFA032","HAFA019","HAFA021","HAFA022","HAFA034","HAFA009","HAFA023","HAFA001","HAFA005","HAFA013","HAFA003","HAFA012","HAFA029","HAFA016","HAFA007","HAFA006","HAFA027","HAFA033","HAFA024","HAFA004","HAFA002","HAFA026","HAFA017","HAFA011","HCFA007","HCFA003","HCFA011","HCFA001","HCFA004","HCFA008","HCFA009","HCFA002","HCFA010","HCFA006","HCFA005","HCFA013","HCFA012","HDFA020","HDFA022","HDFA021","HDFE002","HDFA018","HDFE003","HDFE001","HDFA015","HDFA014","HDFA002","HDFA008","HDFA009","HDFA017","HDFA019","HDFA007","HDFA004","HDFA011","HDFA013","HDFA016","HDFA012","HDFA005","HDFA003","HDFA010","HDFA001","HDFA006","HFFC001","HFFA009","HFFA003","HFFC012","HFFA002","HFFC002","HFFA006","HFFC017","HFFA005","HFFA008","HFFC003","HFFA010","HFFA007","HFFA004","HGFE005","HGFA014","HGFE004","HGFE002","HGFE003","HGFE001","HGFA001","HGFA005","HGFC014","HGFA003","HGFC021","HGFA007","HGFC016","HGFA004","HGFA013","HGFA012","HGFC001","HGFA010","HGFA011","HGFA008","HGFA009","HGFC002","HGFA006","HGPA005","HGPA003","HGPC006","HGPA002","HGPH001","HGPA006","HGPC005","HGPC015","HGPA004","HHFE001","HHFE002","HHFE005","HHFE004","HHFC001","HHFE006","HHFA026","HHFA009","HHFA008","HHFA018","HHFA023","HHFA014","HHFA017","HHFA010","HHFA024","HHFA006","HHFA002","HHFA021","HHFA005","HHFA022","HHFA004","HHFA030","HHFA029","HHFA031","HHFA028","HHFA003","HHFA027","HHPC001","HHPA002","HHPC002","HHPA001","HJFD002","HJFA003","HJFA018","HJFA013","HJFC031","HJFA011","HJFA002","HJFA004","HJFA006","HJFA017","HJFA001","HJFA005","HJFA007","HJFA019","HJFA014","HJFC023","HJFA012","HJFA008","HJFA009","HJFD004","HJFD001","HJFD005","HJFC002","HJFA020","HJFD003","HJFC001","HJFA016","HJFC003","HJFA015","HJFA010","HLFA014","HLFA012","HLFA002","HLFC003","HLFA019","HLFC004","HLFA020","HLFA003","HLFC027","HLFA009","HLFC032","HLFA006","HLFC002","HLFA011","HLFC037","HLFA018","HLFA007","HLFA017","HLFA004","HLFA005","HLFA010","HPMP002","HPML001","HMFC004","HMFA007","HMFC001","HMFA004","HMFC002","HMFA003","HMFA008","HMFC003","HMFA006","HMFA002","HMFC005","HMFA005","HMFA001","HMFA009","HMFA010","HNFC027","HNFA012","HNFC001","HNFA005","HNFC028","HNFA008","HNFA002","HNFC002","HNFA013","HNFA010","HNFA001","HNFA011","HNFA006","HNFA007","HNFA004","HNFA009","HPMB001","HPFC001","HPFA003","HPFC002","HPFA004","HPBA001","HPFC007","HPFA001","HPMA003","HPMA002","HPBA002","HPMA001","JAFC008","JAFA007","JAFA004","JAFC005","JAFA030","JAFA024","JAFA019","JAFA008","JAFA006","JAFC002","JAFA001","JAFC007","JAFA003","JAFA026","JAFC006","JAFA023","JAFA010","JAFA002","JAFA012","JAFC001","JAFA032","JAFC004","JAFA016","JAFA027","JAFA031","JAFC019","JAFA009","JAFA022","JAFA014","JAFA021","JAFC010","JAFA029","JAFA025","JAFA028","JAFA011","JAFA005","JCFD001","JCFF001","JCFE001","JCFE003","JCFE002","JCFA002","JCFA003","JCFA009","JCFA008","JCFA010","JCPA003","JCFA005","JCFA007","JCFA004","JCFA006","JCFC001","JCFA001","JCPD001","JCPC002","JCPA002","JCPC001","JCPA001","JCPE002","JCPE001","JDFE002","JDFE001","JDFC001","JDFA002","JDFC023","JDFA011","JDFA014","JDFA017","JDFA004","JDFA015","JDFA005","JDFA001","JDFA008","JDFA003","JDFA009","JDFA006","JDFA016","JDFA007","JDFA012","JDFA013","JDFA010","JDFE003","JDFA018","JDFA024","JDFA023","JDFA025","JDFA020","JDFA019","JDFA022","JDFA021","JKFE001","JKFE002","JKFC004","JKFC001","JKFA033","JKFA016","JKFA022","JKFD001","JKFD002","JKFE003","JKFA031","JKFA008","JKFA011","JKFA009","JKFA030","JKFA019","JKFA003","JKFC002","JKFA024","JKFA014","JKFA012","JKFC006","JKFA032","JKFA001","JKFA029","JKFC005","JKFA018","JKFA026","JKFA015","JKFA025","JKFA002","JKFA013","JKFC003","JKFA006","JKFA005","JKFA028","JKFA021","JKFA007","JKFA004","JKFA020","JKFA023","JKFA027","JFFA006","JFFC002","JFFA010","JFFA021","JFFC001","JFFA012","JFFA014","JFFA007","JFFA020","JFFA017","JFFA015","JFFA018","JFFA001","JFFA003","JFFA016","JFFA009","JFFA019","JFFA022","JFFA005","JFFA004","JFFA002","JFFA008","JFFA011","JFFA013","LBMP003","LBMP001","LBMP002","LBGD001","LBPA028","LBPA024","LBPA027","LBPA029","LBPA015","LBPA035","LBPA006","LBPA022","LBPA017","LBPA031","LBPA009","LBPA008","LBPA012","LBPA032","LBPA043","LBPA010","LBPA038","LBFA006","LBFA011","LBFA033","LBFA024","LBFA005","LBFA007","LBFA023","LBFA030","LBFA002","LBFA028","LBFA014","LBFA001","LBPA034","LBPA030","LBPA007","LBPA021","LBPA042","LBPA004","LBPA040","LBPA023","LBPA011","LBPA020","LBPA033","LBPA019","LBPA041","LBPA014","LBPA005","LBPA037","LBPA002","LBPA016","LBPA026","LBPA039","LBPA036","LBPA018","LBPA013","LBPA001","LBPA025","LBGA005","LBFA015","LBFA018","LBFA010","LBFA008","LBFA029","LBFA020","LBFA009","LBFA004","LBFA036","LBFA027","LBFA017","LBFA034","LBFA037","LBFA039","LBFA026","LBFA022","LBFA038","LBPA003","LBMA002","LBGA004","LBGA003","LBGA002","LBGA006","LBGA007","LBGA008","LBGA009","LBFA031","LBFA032","LBFA025","LBFA003","LBMA006","LBMA001","LBMA004","LBFA013","LBMA003","LBFA019","LBFA035","LBFA016","LBFA012","LCPA001","LMFA003","LMFA001","LMFA002","QZFA038","QZFA023","QZFA028","QZFA021","QZFA010","QZFA015","QZFA013","QZFA022","QZFA036","QZFA031","QZFA003","QZFA004","QZFA011","QZFA035","QZFA030","QZFA008","QZFA033","QZFA026","QZFA002","QZFA001","QZFA005","QZFA007","QZFA024","QZMA004","QZMA005","QZMA007","QZMA003","QZMA009","QAMA015","QAMA003","QAMA008","QAMA005","QAMA004","QAMA013","QAMA012","QZPA008","QZPA004","QZMA006","QZMA002","QZMA010","QZFA014","QZMP002","QZMP001","QZFA020","QZFA039","QZFA029","QZFA032","QZFA009","QZPA002","QZPA001","QZPA005","QZPA007","QZPA006","QZPA003","QEFA004","QEFA001","QEFA017","QEFA008","QEFA016","QEFA007","QEFA006","QEFA011","QEFA002","QEFA019","QEFA020","QEFA005","QEFA010","QEFA003","QEFA012","QEFA013","QEFA015","QEFA009","QEFA014","QEFA018","DHPA001","LJFA002","LJFA003","LJFA004","LJFA006","LJFA007","LJFA008","LJFA009","LJFA010","LDFA009","LDFA012","LHFA031","LEFA004","LEFA006","LEFA007","LEFA010","LEFA014","LFFA009","LFFA013","LFFA014","LHFA016","LHFA019","LHFA024"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282508},{"nom":"Curiethérapie intracavitaire pulsée vaginale ou utérovaginale","abrege":"curietherapie_intra_cavaire","thematique":"Recours Exceptionnel","actes":["JKNL002","JKNL006","JLNL006","JLNL007"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493282552},{"nom":"Dialyse MARS","abrege":"dialyse_mars","thematique":"Recours Exceptionnel","actes":"FEJF001","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493289735},{"nom":"ECMO hors AREC néonatale","abrege":"ecmo_hors_arec_nnat","thematique":"Recours Exceptionnel","autres":"((!is.na(agejr) & agejr > 28)| agean > 28/365.25)","actes":["EQLA001","EQLA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493286359},{"nom":"Endartériectomie pulmonaire pour hypertension artérielle pulmonaire","abrege":"endarteriectomie","thematique":"Recours Exceptionnel","actes":"DFFA003","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287628},{"nom":"Exérèses carcinilogiques étendues en pneumologie","abrege":"exerese_carcino_etendues_pneumologie","thematique":"Recours Exceptionnel","actes":["GFFA002","GFFA006","GFFA007","GFFA008","GFFA010","GFFA015","GFFA016","GFFA022","GFFA025","GFFA027","GFFA028","GFFA030","GFFA031","GFFA033","GFFA034"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287671},{"nom":"Exsanguino-transfusion chez le foetus ou le nv-né","abrege":"exsanguino_transfu_foetus_nne","thematique":"Recours Exceptionnel","agemax":1,"actes":["JQLF002","FELF005"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287713},{"nom":"Greffes de moelle en cas de grave déficit immunitaire","abrege":"greffe_moelle_deficit_immunitaire_grave","thematique":"Recours Exceptionnel","agemax":14,"ghm":"27Z02","diags":["D761","D80","D81","D82","D83","D840","D841","D848","Q782"],"positions_diags":"toutes","date_saisie":"2017-07-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287781},{"nom":"Intervention lourde en chirurgie maxillofaciale","abrege":"interv_lourde_chir_maxillo_fac","thematique":"Recours Exceptionnel","actes":["LBAA001","LBCB001","LBCB002","LALA001","LALA002","LBMA001","LBMA002","LBMA004","LBMA006"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287832},{"nom":"Malformation congénitale moelle épinière","abrege":"malformation_congenitale_moelle_epiniere","thematique":"Recours Exceptionnel","actes":["AEPA004","AFSA001","AFSA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287864},{"nom":"Malformation congénitale urètre","abrege":"malformation_congenitale_uretre","thematique":"Recours Exceptionnel","actes":["JEFA005","JEMA006","JHAA001","JHAA002"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287948},{"nom":"Malformation congénitale vagin ou transsexuel feminin","abrege":"malformation_congenitale_vagin","thematique":"Recours Exceptionnel","actes":["JLCA006","JLMA001","JLMA002","JLMA003","JLMA004","JLMA005","JLMC001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493287991},{"nom":"Nutrition parent lg cours (hors séances) > 17 ans","abrege":"nut_parenterale_adulte","thematique":"Recours Exceptionnel","agemin":18,"autres":"duree > 21","diags":["E76","E743","K90","P77","K50","K51","Q41","Q431","K912","Z9482","T8680"],"positions_diags":"toutes","actes":["HSLF001","HSLF002","HSLF003"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288078},{"nom":"Pelvectomie","abrege":"pelvectomie","thematique":"Recours Exceptionnel","actes":["JFFA001","JFFA004","JFFA005","JFFA008","JFFA009","JFFA011","JFFA013","JFFA016","JFFA018","JFFA019","JFFA022"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288197},{"nom":"Perfusion isolée de membre","abrege":"perfusion_isolee_membre","thematique":"Recours Exceptionnel","actes":"ZZLF004","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288220},{"nom":"Pose d'assistance circulatoire","abrege":"pose_assistance_circu","thematique":"Recours Exceptionnel","actes":["EQKA003","EQLA003","EQLA004","EQLA005","EQLA006","EQLA007","EQLA008","EQLA009","EQLA010","EQLA011"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908409},{"nom":"Réanimation néonatale chez les moins de 700g","abrege":"rea_nnat_moins_700g","thematique":"Recours Exceptionnel","poidsmax":700,"agejrmax":28,"autres":"!is.na(poids) & poids != 0 & schpmsi != '9' & !(schpmsi == '7' & duree > 0 & duree < 6)","date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288256},{"nom":"Reconstruction ORL par lambeaux libres (hors chirurgie des sarcomes)","abrege":"reconstruction_orl_lambeaux","thematique":"Recours Exceptionnel","autres":"substr(ghm,1,3) == '03C'","actes":["PZMA004","PZMA005","QZMA004","QZMA005","QZMA007"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288305},{"nom":"Reconstruction uro-génétale","abrege":"reconstruction_uro_genetale","thematique":"Recours Exceptionnel","diags":["Q640","Q641"],"positions_diags":"toutes","actes":["JELE001","JDSA001","JDCA001","JDSA009","JDSA003","JDMA001","JEMA002","JHAA001"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908498},{"nom":"Réimplantation membres ou doigts","abrege":"reimplant_membres_ou_doigts","thematique":"Recours Exceptionnel","actes":["MZEA002","MZEA007","MZEA011","NZEA002","NZEA007"],"date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908550},{"nom":"Résection par thoracoscopie des lésions pulmonaires congénitales de diagnostic anténatal","abrege":"resection_thora_lesion_pulmo_congenital_nne","thematique":"Recours Exceptionnel","agemax":2,"diags":"Q33","positions_diags":"toutes","actes":["GFFA009","GFFC002","GFFC003","GFFC004","ZBQC001"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288355},{"nom":"Sphincter de l'anus","abrege":"sphincter_anus","thematique":"Recours Exceptionnel","actes":"HKLA002","date_saisie":"2017-05-03T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493908598},{"nom":"Thermo ablation de tumeur hépatique par radiofréquence peropératoire","abrege":"thermo_ablation_tumeur_radiofrequence","thematique":"Recours Exceptionnel","actes":["HLNA007","HLNC003"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288423},{"nom":"Thermo ablation de tumeur hépatique par radiofréquence, voie transcutanée","abrege":"thermo_ablation_tumeur_voie_transcutanee","thematique":"Recours Exceptionnel","actes":["HLNK001","HLNM001","HLNN900"],"date_saisie":"2017-04-23T22:00:00Z","auteur":"DGOS - ATIH","timestamp":1493288481}],"options":{"mode":"code","modes":["code","form","text","tree","view"]}},"evals":[],"jsHooks":[]}</script>
 </div>
-<div id="accéder-au-dictionnaire-des-listes" class="section level1">
-<h1 class="hasAnchor">
-<a href="#acc%C3%A9der-au-dictionnaire-des-listes" class="anchor"></a>Accéder au dictionnaire des listes</h1>
+<div class="section level2">
+<h2 id="accéder-au-dictionnaire-des-listes">Accéder au dictionnaire des listes<a class="anchor" aria-label="anchor" href="#acc%C3%A9der-au-dictionnaire-des-listes"></a>
+</h2>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html">glimpse</a></span><span class="op">(</span><span class="fu"><a href="../reference/get_dictionnaire_listes.html">get_dictionnaire_listes</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 182</span>
-<span class="co">#&gt; Columns: 3</span>
-<span class="co">#&gt; $ thematique &lt;chr&gt; "Recours Exceptionnel", "Cardiologie interventionnelle", "C…</span>
-<span class="co">#&gt; $ nom_liste  &lt;chr&gt; "Actes intracérébraux par voie stéréotaxique", "Angioplasti…</span>
-<span class="co">#&gt; $ nom_abrege &lt;chr&gt; "actes_intracerebraux_voie_stereotaxique", "angioplasties_c…</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">dplyr</span><span class="fu">::</span><span class="fu"><a href="https://pillar.r-lib.org/reference/glimpse.html" class="external-link">glimpse</a></span><span class="op">(</span><span class="fu"><a href="../reference/get_dictionnaire_listes.html">get_dictionnaire_listes</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Rows: 182</span></span>
+<span><span class="co">#&gt; Columns: 3</span></span>
+<span><span class="co">#&gt; $ thematique <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Recours Exceptionnel", "Cardiologie interventionnelle", "C…</span></span>
+<span><span class="co">#&gt; $ nom_liste  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "Actes intracérébraux par voie stéréotaxique", "Angioplasti…</span></span>
+<span><span class="co">#&gt; $ nom_abrege <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span> "actes_intracerebraux_voie_stereotaxique", "angioplasties_c…</span></span></code></pre></div>
 </div>
   </div>
 
@@ -212,11 +208,13 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by .</p>
+  <p></p>
+<p>Developed by Guillaume Pressiat.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
 </div>
 
       </footer>
@@ -224,6 +222,8 @@
 
   
 
+
+  
 
   </body>
 </html>
