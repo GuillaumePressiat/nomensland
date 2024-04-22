@@ -1,7 +1,7 @@
 Package: nomensland
 Type: Package
 Title: Package contenant des nomenclatures et classifications pour le PMSI
-Version: 0.0.3
+Version: 2024.0.1
 Date: 2021-11-28
 Author: Guillaume Pressiat
 Authors@R: c(person('Guillaume Pressiat', role = c("aut", "cre"), email = "guillaume.pressiat@chu-brest.fr"))
