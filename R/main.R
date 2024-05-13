@@ -13,7 +13,7 @@
 #' @import magrittr jsonlite tibble
 #' @export
 # }
-get_table <- function(table, version = '', def_url = file.path(.libPaths()[1], "nomensland")){
+get_table <- function(table, version = '', def_url = path.package("nomensland")){
   v <- function(one){
     if (FALSE || one == ''){
       u <-   tibble::as_tibble(def_url %>%
@@ -43,7 +43,7 @@ get_table <- function(table, version = '', def_url = file.path(.libPaths()[1], "
 #' @author G. Pressiat
 #' @import magrittr jsonlite
 #' @export
-get_liste <- function(nom_liste, def_url = file.path(.libPaths()[1], "nomensland")){
+get_liste <- function(nom_liste, def_url = path.package("nomensland")){
   def_url %>%
     paste0('/listes/',  nom_liste, '.json') %>%
     jsonlite::fromJSON(simplifyVector = TRUE)
@@ -61,7 +61,7 @@ get_liste <- function(nom_liste, def_url = file.path(.libPaths()[1], "nomensland
 #' @import magrittr jsonlite
 #' @importFrom dplyr filter
 #' @export
-get_all_listes <- function(theme, def_url = file.path(.libPaths()[1], "nomensland")){
+get_all_listes <- function(theme, def_url = path.package("nomensland")){
   get_dictionnaire_listes() %>%
     dplyr::filter(thematique == theme) %>% .$nom_abrege -> l
   lapply(l, get_liste)
@@ -79,7 +79,7 @@ get_all_listes <- function(theme, def_url = file.path(.libPaths()[1], "nomenslan
 #' @importFrom magrittr "%>%"
 #' @import jsonlite
 #' @export
-get_dictionnaire_listes <- function(def_url = file.path(.libPaths()[1], "nomensland")){
+get_dictionnaire_listes <- function(def_url = path.package("nomensland")){
   def_url %>%
     paste0('/dictionnaire.json') %>%
     jsonlite::read_json(simplifyVector = TRUE) %>% 
@@ -97,7 +97,7 @@ get_dictionnaire_listes <- function(def_url = file.path(.libPaths()[1], "nomensl
 #' @author G. Pressiat
 #' @import jsonlite dplyr
 #' @export
-get_dictionnaire_tables <- function(def_url = file.path(.libPaths()[1], "nomensland")){
+get_dictionnaire_tables <- function(def_url = path.package("nomensland")){
   def_url %>%
     paste0('/tables/dictionnaire_tables.json.gz') %>%
     jsonlite::read_json(simplifyVector = TRUE) %>% 
