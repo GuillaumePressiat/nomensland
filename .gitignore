@@ -31,3 +31,5 @@ vignettes/*.pdf
 inst/doc
 /doc/
 /Meta/
+
+*.DS_Store
