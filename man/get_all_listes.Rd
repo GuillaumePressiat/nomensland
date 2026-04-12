@@ -6,6 +6,15 @@
 \usage{
 get_all_listes(theme, def_url = path.package("nomensland"))
 }
+\arguments{
+\item{theme}{Character. Nom de la thématique recherchée
+(par exemple : \code{"Chirurgie bariatrique"}).}
+
+\item{def_url}{Character. Chemin vers les données du package.
+Par défaut, utilise \code{path.package("nomensland")}.
+Ce paramètre est principalement destiné à un usage interne
+ou pour des environnements spécifiques.}
+}
 \description{
 ~ api : recuperer toutes les listes sur une thematique
 }

@@ -6,6 +6,12 @@
 \usage{
 get_dictionnaire_listes(def_url = path.package("nomensland"))
 }
+\arguments{
+\item{def_url}{Character. Chemin vers les données du package.
+Par défaut, utilise \code{path.package("nomensland")}.
+Ce paramètre est principalement destiné à un usage interne
+ou pour des environnements spécifiques.}
+}
 \description{
 ~ api : recuperer le dictionnaire des listes
 }
@@ -13,6 +19,7 @@ get_dictionnaire_listes(def_url = path.package("nomensland"))
 \dontrun{
 get_dictionnaire_listes()
 }
+
 
 }
 \author{

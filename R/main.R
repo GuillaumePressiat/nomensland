@@ -9,6 +9,13 @@
 #' get_table('tarifs_mco_ghs', 2015:2018)
 #' }
 #'
+#' @param table Character. Nom de la table.
+#' @param version Character. Version pour filtrer la table (ex: 2025).
+#' @param def_url Character. Chemin vers les données du package.
+#' Par défaut, utilise \code{path.package("nomensland")}.
+#' Ce paramètre est principalement destiné à un usage interne
+#' ou pour des environnements spécifiques.
+#'
 #' @author G. Pressiat
 #' @import magrittr jsonlite tibble
 #' @export
@@ -23,8 +30,8 @@ get_table <- function(table, version = '', def_url = path.package("nomensland"))
       u <-   tibble::as_tibble(def_url %>%
                                  paste0('/tables/', table, '.json.gz') %>%
                                  jsonlite::read_json(simplifyVector = TRUE)) %>% 
-        dplyr::filter(time_i %in% as.character(version)) %>%
-        dplyr::select(-time_i)
+        dplyr::filter(.data$time_i %in% as.character(version)) %>%
+        dplyr::select(-.data$time_i)
     }
     return(u)
   }
@@ -40,6 +47,12 @@ get_table <- function(table, version = '', def_url = path.package("nomensland"))
 #' get_liste('chip')
 #' }
 #'
+#' @param nom_liste Character. Nom de la liste (abrégé).
+#' @param def_url Character. Chemin vers les données du package.
+#' Par défaut, utilise \code{path.package("nomensland")}.
+#' Ce paramètre est principalement destiné à un usage interne
+#' ou pour des environnements spécifiques.
+#' 
 #' @author G. Pressiat
 #' @import magrittr jsonlite
 #' @export
@@ -58,12 +71,20 @@ get_liste <- function(nom_liste, def_url = path.package("nomensland")){
 #' get_all_listes("Recours Exceptionnel")
 #' }
 #'
+#' @param theme Character. Nom de la thématique recherchée
+#' (par exemple : \code{"Chirurgie bariatrique"}).
+#'
+#' @param def_url Character. Chemin vers les données du package.
+#' Par défaut, utilise \code{path.package("nomensland")}.
+#' Ce paramètre est principalement destiné à un usage interne
+#' ou pour des environnements spécifiques.
+#' 
 #' @import magrittr jsonlite
 #' @importFrom dplyr filter
 #' @export
 get_all_listes <- function(theme, def_url = path.package("nomensland")){
   get_dictionnaire_listes() %>%
-    dplyr::filter(thematique == theme) %>% .$nom_abrege -> l
+    dplyr::filter(.data$thematique == theme) %>% dplyr::pull(.data$nom_abrege) -> l
   lapply(l, get_liste)
 }
 
@@ -74,6 +95,12 @@ get_all_listes <- function(theme, def_url = path.package("nomensland")){
 #' \dontrun{
 #' get_dictionnaire_listes()
 #' }
+#'
+#'
+#' @param def_url Character. Chemin vers les données du package.
+#' Par défaut, utilise \code{path.package("nomensland")}.
+#' Ce paramètre est principalement destiné à un usage interne
+#' ou pour des environnements spécifiques.
 #'
 #' @author G. Pressiat
 #' @importFrom magrittr "%>%"
@@ -94,6 +121,12 @@ get_dictionnaire_listes <- function(def_url = path.package("nomensland")){
 #' get_dictionnaire_tables()
 #' }
 #'
+#'
+#' @param def_url Character. Chemin vers les données du package.
+#' Par défaut, utilise \code{path.package("nomensland")}.
+#' Ce paramètre est principalement destiné à un usage interne
+#' ou pour des environnements spécifiques.
+#'
 #' @author G. Pressiat
 #' @import jsonlite dplyr
 #' @export
@@ -101,12 +134,43 @@ get_dictionnaire_tables <- function(def_url = path.package("nomensland")){
   def_url %>%
     paste0('/tables/dictionnaire_tables.json.gz') %>%
     jsonlite::read_json(simplifyVector = TRUE) %>% 
-    dplyr::distinct(nom_table, commentaire_table, source_table, version) %>% 
+    dplyr::distinct(.data$nom_table, .data$commentaire_table, .data$source_table, .data$version) %>% 
     dplyr::as_tibble()
 }
 
 
 #' @title  Explorer les tables avec shiny
+#'
+#' @description
+#' Lance une application \pkg{shiny} permettant d'explorer de manière interactive
+#' les tables de données du package \pkg{nomensland}. Cette interface
+#' facilite la consultation, le filtrage et la visualisation des données.
+#'
+#' @param launch.browser Logical. Indique si l'application doit être ouverte
+#' dans le navigateur web par défaut. Par défaut, utilise l'option globale
+#' \code{shiny.launch.browser}, ou \code{interactive()} si celle-ci n'est pas définie.
+#'
+#' @details
+#' Cette fonction localise le répertoire de l'application Shiny embarquée
+#' dans le package \pkg{nomensland} puis la lance via \code{\link[shiny]{runApp}}.
+#'
+#' Si le répertoire de l'application ne peut pas être trouvé (par exemple
+#' si le package est mal installé), une erreur est levée avec un message
+#' invitant à réinstaller le package.
+#'
+#' @return
+#' Retourne la valeur renvoyée par \code{\link[shiny]{runApp}}.
+#'
+#' @examples
+#' \dontrun{
+#' # Lancer l'application dans le navigateur
+#' explore_nomensland()
+#'
+#' # Lancer sans ouvrir automatiquement le navigateur
+#' explore_nomensland(launch.browser = FALSE)
+#' }
+#'
+#' @seealso \link[shiny]{runApp}
 #'
 #' @export
 explore_nomensland <- function(launch.browser = getOption("shiny.launch.browser", interactive())) {

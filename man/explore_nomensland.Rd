@@ -8,6 +8,37 @@ explore_nomensland(
   launch.browser = getOption("shiny.launch.browser", interactive())
 )
 }
+\arguments{
+\item{launch.browser}{Logical. Indique si l'application doit être ouverte
+dans le navigateur web par défaut. Par défaut, utilise l'option globale
+\code{shiny.launch.browser}, ou \code{interactive()} si celle-ci n'est pas définie.}
+}
+\value{
+Retourne la valeur renvoyée par \code{\link[shiny]{runApp}}.
+}
 \description{
-Explorer les tables avec shiny
+Lance une application \pkg{shiny} permettant d'explorer de manière interactive
+les tables de données du package \pkg{nomensland}. Cette interface
+facilite la consultation, le filtrage et la visualisation des données.
+}
+\details{
+Cette fonction localise le répertoire de l'application Shiny embarquée
+dans le package \pkg{nomensland} puis la lance via \code{\link[shiny]{runApp}}.
+
+Si le répertoire de l'application ne peut pas être trouvé (par exemple
+si le package est mal installé), une erreur est levée avec un message
+invitant à réinstaller le package.
+}
+\examples{
+\dontrun{
+# Lancer l'application dans le navigateur
+explore_nomensland()
+
+# Lancer sans ouvrir automatiquement le navigateur
+explore_nomensland(launch.browser = FALSE)
+}
+
+}
+\seealso{
+\link[shiny]{runApp}
 }

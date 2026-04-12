@@ -6,6 +6,14 @@
 \usage{
 get_liste(nom_liste, def_url = path.package("nomensland"))
 }
+\arguments{
+\item{nom_liste}{Character. Nom de la liste (abrégé).}
+
+\item{def_url}{Character. Chemin vers les données du package.
+Par défaut, utilise \code{path.package("nomensland")}.
+Ce paramètre est principalement destiné à un usage interne
+ou pour des environnements spécifiques.}
+}
 \description{
 ~ api : recuperer une liste
 }

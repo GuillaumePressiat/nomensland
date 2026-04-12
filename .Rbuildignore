@@ -4,3 +4,7 @@
 ^\.Rproj\.user$
 ^docs$
 ^\.github$
+.pkgdown.uml
+pkgdown
+build.R
+python

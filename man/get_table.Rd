@@ -6,6 +6,16 @@
 \usage{
 get_table(table, version = "", def_url = path.package("nomensland"))
 }
+\arguments{
+\item{table}{Character. Nom de la table.}
+
+\item{version}{Character. Version pour filtrer la table (ex: 2025).}
+
+\item{def_url}{Character. Chemin vers les données du package.
+Par défaut, utilise \code{path.package("nomensland")}.
+Ce paramètre est principalement destiné à un usage interne
+ou pour des environnements spécifiques.}
+}
 \description{
 ~ api : recuperer une table (referentiel)
 }
